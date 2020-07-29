@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% load bootstrap4 %}
+{% block head %}
+{% bootstrap_css %}
+{% bootstrap_javascript jquery='full' %}
+{% endblock %}
+
+{% block content %}
+{# Display django.contrib.messages as Bootstrap alerts #}
+{% bootstrap_messages %}
+<div class="container">
+    <div class="row">
+        <h1>{{ titulo|title }}</h1>
+    </div>
+    <div class="row">
+        <div class="col">
+            <form action="{% url 'index' %}" method="post" class="form">
+                {% bootstrap_form form %}
+                {% csrf_token %}
+
+                <input type="submit" value="Plotar" class="btn btn-primary">
+            </form>
+        </div>
+        <div class="col-9">
+            {% block grafico %}
+            {{ div|safe }}
+            {% endblock %}
+        </div>
+
+    </div>
+
+
+</div>
+{% endblock %}
+
+
