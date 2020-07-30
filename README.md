@@ -16,3 +16,5 @@ Why Python?  [1](https://www.tiobe.com/tiobe-index/), [2](https://hackr.io/blog/
 [Rosetta Code](http://www.rosettacode.org)
 [Exercism](https://exercism.io)
 
+
+https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork
