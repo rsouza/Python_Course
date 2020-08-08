@@ -1,4 +1,28 @@
-### An introductory and intermediate course on Python
+### An introductory and intermediate course on Python  
+
+#### Topics  
+
++ Bultin Data Types.  
++ Control Flow.  
++ Scopes.  
++ Functions.  
++ Generators.  
++ Comprehensions.  
++ Functional Programming.  
++ Lambda Functions.  
++ Importing Packages.  
++ Common Packages of the Standard Library.  
++ Classes, OOP.  
++ Data Persistence.  
++ Textual Analysis.   
++ Webscraping.  
++ Numpy.  
++ Matplotlib, Seaborn - Visualization.  
++ Pandas.  
++ Temporal Series.  
++ Graph Analysis.  
+
+### References
 
 Why Python?  [1](https://www.tiobe.com/tiobe-index/), [2](https://hackr.io/blog/best-programming-languages-to-learn-2020-jobs-future), [3](https://www.computer.org/publications/tech-news/trends/programming-languages-you-should-learn-in-2020), [4](https://www.edureka.co/blog/python-interesting-facts-you-need-to-know/)  
 [Programming Languages history](https://en.wikipedia.org/wiki/History_of_programming_languages)  
