@@ -38,6 +38,7 @@ Why Python?  [Tiobe Index](https://www.tiobe.com/tiobe-index/), [PL and jobs](ht
 Python IDEs [Anaconda](https://www.anaconda.com/products/individual), [PyCharm](https://www.jetbrains.com/pycharm/), [Rodeo](https://rodeo.yhat.com/) 
 [Visualizing Code Execution](http://www.pythontutor.com/)  
 [Jupyter Hub Docker](https://hub.docker.com/r/jupyterhub/jupyterhub/)  
+[From Notebooks to Scripts](https://towardsdatascience.com/5-reasons-why-you-should-switch-from-jupyter-notebook-to-scripts-cb3535ba9c95)  
 
 ### Exercises:
 
