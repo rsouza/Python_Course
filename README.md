@@ -1,7 +1,8 @@
-### An introductory and intermediate course on Python  
+## An introductory and intermediate course on Python  
 
-#### Topics  
+### Topics  
 
+#### Python Features
 + [Bultin Data Types](https://docs.python.org/3/library/stdtypes.html)   
 + [Control Flow](https://docs.python.org/3/tutorial/controlflow.html)  
 + [Scopes](https://www.geeksforgeeks.org/namespaces-and-scope-in-python/)  
@@ -9,18 +10,19 @@
 + [Generators](https://www.programiz.com/python-programming/generator)    
 + [Comprehensions](https://python-3-patterns-idioms-test.readthedocs.io/en/latest/Comprehensions.html)  
 + [Functional Programming](https://docs.python.org/3/howto/functional.html)    
-+ [Lambda Functions](https://docs.python.org/3/howto/functional.html#small-functions-and-the-lambda-expression)    
+    + [Lambda Functions](https://docs.python.org/3/howto/functional.html#small-functions-and-the-lambda-expression)    
 + [Importing Packages](https://realpython.com/python-modules-packages/)  
-    + Common Packages of the Standard Library.  
+    + [Common Packages of the Standard Library](https://docs.python.org/3/library/)  
++ [Data Persistence](https://docs.python.org/3/library/persistence.html)  
 + [Classes, OOP](https://www.analyticsvidhya.com/blog/2020/08/object-oriented-programming/).  
-+ Data Persistence.  
-+ Textual Analysis.   
-+ Webscraping.  
-+ Numpy.  
-+ Matplotlib, Seaborn - Visualization.  
-+ Pandas.  
-+ Temporal Series.  
-+ Graph Analysis.  
+
+#### Tasks
++ [Numpy](https://numpy.org/), [Pandas](https://pandas.pydata.org/): Dimensional Data and Exploratory Data Analysis
++ [NLTK](https://www.nltk.org/), [Gensim](https://radimrehurek.com/gensim/), [Spacy](https://spacy.io/): Textual Analysis  
++ [Matplotlib](https://matplotlib.org/), [Seaborn](https://seaborn.pydata.org/): Visualization  
++ [NetworkX](https://networkx.github.io/), [ete3](http://etetoolkit.org/): [Graph Analysis](https://www.analyticsvidhya.com/blog/2018/04/introduction-to-graph-theory-network-analysis-python-codes/)  
++ [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), [MechanicalSoup](https://mechanicalsoup.readthedocs.io/en/stable/): Webscraping  
++ [Pandas](https://pandas.pydata.org/), [Statsmodels](https://www.statsmodels.org/stable/index.html): [Temporal Series](https://www.machinelearningplus.com/time-series/time-series-analysis-python/)      
 
 ### References
 
