@@ -16,6 +16,7 @@
 + [Data Persistence](https://docs.python.org/3/library/persistence.html)  
 + [Classes, OOP](https://www.analyticsvidhya.com/blog/2020/08/object-oriented-programming/)  
 + [Decorators](https://realpython.com/primer-on-python-decorators/)  
++ [Cython and Static Types](https://medium.com/swlh/write-c-extensions-for-python-using-cython-90952d66bc25)  
 
 #### Tasks
 + [Dimensional Data and Exploratory Data Analysis](https://www.hackerearth.com/practice/machine-learning/data-manipulation-visualisation-r-python/tutorial-data-manipulation-numpy-pandas-python/tutorial/):  [Numpy](https://numpy.org/), [Pandas](https://pandas.pydata.org/)  
