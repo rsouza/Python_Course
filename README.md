@@ -18,11 +18,11 @@
 + [Decorators](https://realpython.com/primer-on-python-decorators/)  
 
 #### Tasks
-+ Dimensional Data and Exploratory Data Analysis:  [Numpy](https://numpy.org/), [Pandas](https://pandas.pydata.org/)  
-+ Textual Analysis: [NLTK](https://www.nltk.org/), [Gensim](https://radimrehurek.com/gensim/), [Spacy](https://spacy.io/)  
++ [Dimensional Data and Exploratory Data Analysis](https://www.hackerearth.com/practice/machine-learning/data-manipulation-visualisation-r-python/tutorial-data-manipulation-numpy-pandas-python/tutorial/):  [Numpy](https://numpy.org/), [Pandas](https://pandas.pydata.org/)  
++ [Textual Analysis](https://monkeylearn.com/text-analysis): [NLTK](https://www.nltk.org/), [Gensim](https://radimrehurek.com/gensim/), [Spacy](https://spacy.io/)  
 + [Visualization](https://towardsdatascience.com/complete-guide-to-data-visualization-with-python-2dd74df12b5e): [Matplotlib](https://matplotlib.org/), [Seaborn](https://seaborn.pydata.org/)  
 + [Graph Analysis](https://www.analyticsvidhya.com/blog/2018/04/introduction-to-graph-theory-network-analysis-python-codes/): [NetworkX](https://networkx.github.io/), [ete3](http://etetoolkit.org/)  
-+ Webscraping: [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), [MechanicalSoup](https://mechanicalsoup.readthedocs.io/en/stable/)    
++ [Webscraping](https://opensource.com/article/20/5/web-scraping-python): [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), [MechanicalSoup](https://mechanicalsoup.readthedocs.io/en/stable/)    
 + [Temporal Series](https://www.machinelearningplus.com/time-series/time-series-analysis-python/): [Pandas](https://pandas.pydata.org/), [Statsmodels](https://www.statsmodels.org/stable/index.html)      
 
 ### References
