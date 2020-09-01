@@ -2,17 +2,17 @@
 
 #### Topics  
 
-+ Bultin Data Types.  
-+ Control Flow.  
-+ Scopes.  
-+ Functions.  
-+ Generators.  
-+ Comprehensions.  
-+ Functional Programming.  
-+ Lambda Functions.  
-+ Importing Packages.  
-+ Common Packages of the Standard Library.  
-+ Classes, OOP.  
++ [Bultin Data Types](https://docs.python.org/3/library/stdtypes.html)   
++ [Control Flow](https://docs.python.org/3/tutorial/controlflow.html)  
++ [Scopes](https://www.geeksforgeeks.org/namespaces-and-scope-in-python/)  
++ [Functions](https://www.w3schools.com/python/python_functions.asp)  
++ [Generators](https://www.programiz.com/python-programming/generator)    
++ [Comprehensions](https://python-3-patterns-idioms-test.readthedocs.io/en/latest/Comprehensions.html)  
++ [Functional Programming](https://docs.python.org/3/howto/functional.html)    
++ [Lambda Functions](https://docs.python.org/3/howto/functional.html#small-functions-and-the-lambda-expression)    
++ [Importing Packages](https://realpython.com/python-modules-packages/)  
+    + Common Packages of the Standard Library.  
++ [Classes, OOP](https://www.analyticsvidhya.com/blog/2020/08/object-oriented-programming/).  
 + Data Persistence.  
 + Textual Analysis.   
 + Webscraping.  
