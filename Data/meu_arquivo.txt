@@ -1,0 +1,6 @@
+Olá
+olá, como vai
+
+Então tchau!
+
+um texto	depois de um <tab>
