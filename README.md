@@ -47,7 +47,7 @@ Python IDEs [Anaconda](https://www.anaconda.com/products/individual), [PyCharm](
 [From Notebooks to Scripts](https://towardsdatascience.com/5-reasons-why-you-should-switch-from-jupyter-notebook-to-scripts-cb3535ba9c95)  
 
 ### Git & Github
-[Github Desktop](https://desktop.github.com/)
+[Github Desktop (Windows, Apple)](https://desktop.github.com/), [Github Desktop (Linux)](https://github.com/shiftkey/desktop)  
 
 ### Exercises:
 
