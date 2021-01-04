@@ -38,11 +38,16 @@
 
 Why Python?  [Tiobe Index](https://www.tiobe.com/tiobe-index/), [PL and jobs](https://hackr.io/blog/best-programming-languages-to-learn-2020-jobs-future), [PL and jobs (2)](https://www.computer.org/publications/tech-news/trends/programming-languages-you-should-learn-in-2020), [Python Curiosities](https://www.edureka.co/blog/python-interesting-facts-you-need-to-know/)  
 [Python Package Index](https://pypi.org/)  
-[Python Style Guide](https://www.python.org/dev/peps/pep-0008/)
-Python IDEs [Anaconda](https://www.anaconda.com/products/individual), [PyCharm](https://www.jetbrains.com/pycharm/), [Rodeo](https://rodeo.yhat.com/) 
+[Python Style Guide](https://www.python.org/dev/peps/pep-0008/)  
+
+Python IDEs [Anaconda](https://www.anaconda.com/products/individual), [PyCharm](https://www.jetbrains.com/pycharm/), [VS Code](https://code.visualstudio.com/)  
+[Kite Code Completion](https://www.kite.com/)  
 [Visualizing Code Execution](http://www.pythontutor.com/)  
 [Jupyter Hub Docker](https://hub.docker.com/r/jupyterhub/jupyterhub/)  
 [From Notebooks to Scripts](https://towardsdatascience.com/5-reasons-why-you-should-switch-from-jupyter-notebook-to-scripts-cb3535ba9c95)  
+
+### Git & Github
+[Github Desktop](https://desktop.github.com/)
 
 ### Exercises:
 
