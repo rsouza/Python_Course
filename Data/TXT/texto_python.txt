@@ -1,0 +1,1608 @@
+
+  /Python/
+
+Origem: Wikipédia, a enciclopédia livre.
+Ir para: navegação <#mw-head>, pesquisa <#p-search>
+Disambig grey.svg *Nota:* Para outros significados, veja Python
+(desambiguação) </wiki/Python_(desambigua%C3%A7%C3%A3o)>.
+Python
+Python logo and wordmark.svg </wiki/Ficheiro:Python_logo_and_wordmark.svg>
+Paradigma </wiki/Paradigma_de_programa%C3%A7%C3%A3o> 	Multiparadigma
+</wiki/Multiparadigma>:
+Orientação a objetos </wiki/Orienta%C3%A7%C3%A3o_a_objetos>
+Programação imperativa </wiki/Programa%C3%A7%C3%A3o_imperativa>
+Programação funcional </wiki/Programa%C3%A7%C3%A3o_funcional>
+Surgido em 	1991 </wiki/1991>^[1] <#cite_note-svn-hist.C3.B3ria-1>
+Última versão </wiki/Vers%C3%A3o> 	3.4.1 (18 de maio de 2014^[2]
+<#cite_note-2> )
+Criado por 	Guido van Rossum </wiki/Guido_van_Rossum>^[1]
+<#cite_note-svn-hist.C3.B3ria-1>
+Estilo de tipagem </wiki/Tipo_de_dado>: 	Dinâmica, forte
+Dialetos: 	CPython </wiki/CPython>, IronPython </wiki/IronPython>,
+Jython </wiki/Jython>, PyPy </w/index.php?title=PyPy&action=edit&redlink=1>
+Influenciada por 	ABC
+</wiki/ABC_(linguagem_de_programa%C3%A7%C3%A3o)>,^[3]
+<#cite_note-influ.C3.AAncias-3> ALGOL 68 </wiki/ALGOL_68>, C
+</wiki/C_(linguagem_de_programa%C3%A7%C3%A3o)>^[3]
+<#cite_note-influ.C3.AAncias-3> , Haskell
+</wiki/Haskell_(linguagem_de_programa%C3%A7%C3%A3o)>, Icon
+</wiki/Icon_(linguagem_de_programa%C3%A7%C3%A3o)>, Java
+</wiki/Java_(linguagem_de_programa%C3%A7%C3%A3o)>, Lisp </wiki/Lisp>,
+Modula-3 </wiki/Modula-3>^[3] <#cite_note-influ.C3.AAncias-3> , Perl
+</wiki/Perl>, Smalltalk </wiki/Smalltalk>
+Influenciou 	Boo </wiki/Boo>, D
+</wiki/D_(linguagem_de_programa%C3%A7%C3%A3o)>, Falcon
+</w/index.php?title=Falcon_(linguagem_de_programa%C3%A7%C3%A3o)&action=edit&redlink=1>,
+Fantom </wiki/Fantom>, Groovy </wiki/Groovy>, JavaScript
+</wiki/JavaScript>, Nimrod
+</wiki/Nimrod_(linguagem_de_programa%C3%A7%C3%A3o)>, Py
+</wiki/Py_(linguagem_de_programa%C3%A7%C3%A3o)>, Ruby
+</wiki/Ruby_(linguagem_de_programa%C3%A7%C3%A3o)>, Squirrel
+</wiki/Squirrel>
+Página oficial </wiki/Site> 	www.python.org <http://www.python.org/>
+
+/*Python*/ é uma linguagem de programação de alto nível
+</wiki/Linguagem_de_programa%C3%A7%C3%A3o_de_alto_n%C3%ADvel>^[4]
+<#cite_note-entrevista-venners-pt-1-4> , interpretada
+</wiki/Linguagem_interpretada>, imperativa
+</wiki/Programa%C3%A7%C3%A3o_imperativa>, orientada a objetos
+</wiki/Orienta%C3%A7%C3%A3o_a_objetos>, funcional
+</wiki/Programa%C3%A7%C3%A3o_funcional>, de tipagem </wiki/Tipo_de_dado>
+dinâmica e forte. Foi lançada por Guido van Rossum
+</wiki/Guido_van_Rossum> em 1991 </wiki/1991>.^[1]
+<#cite_note-svn-hist.C3.B3ria-1> Atualmente possui um modelo de
+desenvolvimento comunitário, aberto e gerenciado pela organização sem
+fins lucrativos </wiki/Organiza%C3%A7%C3%A3o_sem_fins_lucrativos> Python
+Software Foundation </wiki/Python_Software_Foundation>. Apesar de várias
+partes da linguagem possuírem padrões e especificações formais, a
+linguagem como um todo não é formalmente especificada. O padrão /de
+facto </wiki/De_facto>/ é a implementação CPython </wiki/CPython>.
+
+A linguagem foi projetada com a filosofia de enfatizar a importância do
+esforço do programador sobre o esforço computacional. Prioriza a
+legibilidade do código sobre a velocidade ou expressividade. Combina uma
+sintaxe </wiki/Sintaxe> concisa e clara com os recursos poderosos de sua
+biblioteca </wiki/Biblioteca_de_rotinas> padrão e por módulos
+</wiki/M%C3%B3dulo_de_um_programa> e /frameworks </wiki/Framework>/
+desenvolvidos por terceiros.
+
+O nome /*Python*/ teve a sua origem no grupo humorístico britânico
+</wiki/Reino_Unido> Monty Python </wiki/Monty_Python>,^[5]
+<#cite_note-Computerworld-5> criador do programa /Monty Python's Flying
+Circus </wiki/Monty_Python>/, embora muitas pessoas façam associação com
+o réptil </wiki/R%C3%A9ptil> do mesmo nome (em português
+</wiki/L%C3%ADngua_portuguesa>, /píton </wiki/P%C3%ADton>/ ou /pitão/).
+
+
+    Índice
+
+ [esconder <#>] 
+
+  * 1 História <#Hist.C3.B3ria>
+  * 2 Filosofia <#Filosofia>
+  * 3 Características <#Caracter.C3.ADsticas>
+      o 3.1 Construções <#Constru.C3.A7.C3.B5es>
+      o 3.2 Tipos de dado <#Tipos_de_dado>
+      o 3.3 Palavras reservadas <#Palavras_reservadas>
+      o 3.4 Operadores <#Operadores>
+      o 3.5 Interpretador interativo <#Interpretador_interativo>
+      o 3.6 Análise léxica <#An.C3.A1lise_l.C3.A9xica>
+          + 3.6.1 Indentação <#Indenta.C3.A7.C3.A3o>
+      o 3.7 Compilador de bytecode <#Compilador_de_bytecode>
+      o 3.8 Polimorfismo <#Polimorfismo>
+      o 3.9 Orientação a objetos <#Orienta.C3.A7.C3.A3o_a_objetos>
+      o 3.10 Programação funcional <#Programa.C3.A7.C3.A3o_funcional>
+      o 3.11 Tratamento de exceções <#Tratamento_de_exce.C3.A7.C3.B5es>
+      o 3.12 Biblioteca padrão <#Biblioteca_padr.C3.A3o>
+      o 3.13 Comentários <#Coment.C3.A1rios>
+  * 4 Plataformas disponíveis <#Plataformas_dispon.C3.ADveis>
+  * 5 Implementações <#Implementa.C3.A7.C3.B5es>
+  * 6 Desenvolvimento <#Desenvolvimento>
+  * 7 Licença <#Licen.C3.A7a>
+  * 8 Módulos e /frameworks/ <#M.C3.B3dulos_e_frameworks>
+      o 8.1 Interfaces gráficas <#Interfaces_gr.C3.A1ficas>
+  * 9 Ambientes de desenvolvimento integrado
+    <#Ambientes_de_desenvolvimento_integrado>
+  * 10 Aplicações <#Aplica.C3.A7.C3.B5es>
+  * 11 Referências <#Refer.C3.AAncias>
+  * 12 Bibliografia <#Bibliografia>
+  * 13 Ligações externas <#Liga.C3.A7.C3.B5es_externas>
+
+
+    História[editar
+    </w/index.php?title=Python&veaction=edit&vesection=1>| editar
+    código-fonte </w/index.php?title=Python&action=edit&section=1>]
+
+</wiki/Ficheiro:He_invented_Python.jpg>
+</wiki/Ficheiro:He_invented_Python.jpg>
+Guido van Rossum </wiki/Guido_van_Rossum>, São Francisco, Califórnia
+
+Python foi concebido no final de 1989 </wiki/1989>^[4]
+<#cite_note-entrevista-venners-pt-1-4> ^[5] <#cite_note-Computerworld-5>
+por Guido van Rossum </wiki/Guido_van_Rossum> no Instituto de Pesquisa
+Nacional para Matemática e Ciência da Computação (CWI), nos Países
+Baixos </wiki/Pa%C3%ADses_Baixos>, como um sucessor da ABC
+</wiki/ABC_(linguagem_de_programa%C3%A7%C3%A3o)> capaz de tratar
+exceções </wiki/Tratamento_de_exce%C3%A7%C3%B5es> e prover interface com
+o sistema operacional </wiki/Sistema_operacional> Amoeba
+</wiki/Amoeba_(sistema_operacional)>^[6] <#cite_note-faq-criado-6>
+através de scripts </wiki/Linguagem_de_script>. Também da CWI, a
+linguagem ABC era mais produtiva que C
+</wiki/C_(linguagem_de_programa%C3%A7%C3%A3o)>, ainda que com o custo do
+desempenho em tempo de execução </wiki/Tempo_de_execu%C3%A7%C3%A3o>. Mas
+ela não possuía funcionalidades importantes para a interação com o
+sistema operacional, uma necessidade do grupo. Um dos focos primordiais
+de Python era aumentar a produtividade do programador.^[5]
+<#cite_note-Computerworld-5>
+
+Em 1991 </wiki/1991>, Guido publicou o código (nomeado versão 0.9.0) no
+grupo de discussão alt.sources.^[1] <#cite_note-svn-hist.C3.B3ria-1>
+Nessa versão já estavam presentes classes
+</wiki/Classe_(programa%C3%A7%C3%A3o)> com herança
+</wiki/Heran%C3%A7a_(programa%C3%A7%C3%A3o)>, tratamento de exceções,
+funções </w/index.php?title=Subrotina&action=edit&redlink=1> e os tipos
+de dado </wiki/Tipo_de_dado> nativos |list </wiki/Lista>|, |dict
+</wiki/Dicion%C3%A1rio>|, |str </wiki/Cadeia_de_caracteres>|, e assim
+por diante. Também estava presente nessa versão um sistema de módulos
+emprestado do Modula-3 </wiki/Modula-3>. O modelo de exceções também
+lembrava muito o do Modula-3, com a adição da opção |else| clause.^[6]
+<#cite_note-faq-criado-6> Em 1994 </wiki/1994> foi formado o principal
+fórum de discussão do Python, comp.lang.python, um marco para o
+crescimento da base de usuários da linguagem.
+
+A versão 1.0 foi lançada em janeiro de 1994. Novas funcionalidades
+incluíam ferramentas para programação funcional
+</wiki/Programa%C3%A7%C3%A3o_funcional> como |lambda
+</wiki/C%C3%A1lculo_lambda>|, |map|, |filter| e |reduce|. A última
+versão enquanto Guido estava na CWI foi o Python 1.2. Em 1995
+</wiki/1995>, ele continuou o trabalho no CNRI em Reston </wiki/Reston>,
+Estados Unidos </wiki/Estados_Unidos>, de onde lançou diversas versões.
+Na versão 1.4 a linguagem ganhou parâmetros nomeados (a capacidade de
+passar parâmetro pelo nome e não pela posição na lista de parâmetros) e
+suporte nativo a números complexos </wiki/N%C3%BAmero_complexo>, assim
+como uma forma de encapsulamento </wiki/Encapsulamento>.^[7] <#cite_note-7>
+
+Ainda na CNRI, Guido lançou a iniciativa /Computer Programming for
+Everybody/ (CP4E; literalmente, "Programação de Computadores para
+Todos"), que visava tornar a programação
+</wiki/Programa%C3%A7%C3%A3o_de_computadores> mais acessível, um projeto
+financiado pela DARPA </wiki/DARPA>.^[8] <#cite_note-8> Atualmente o
+CP4E encontra-se inativo.
+
+Em 2000 </wiki/2000>, o time de desenvolvimento da linguagem se mudou
+para a BeOpen a fim de formar o time PythonLabs
+</w/index.php?title=PythonLabs&action=edit&redlink=1>. A CNRI pediu que
+a versão 1.6 fosse lançada, para marcar o fim de desenvolvimento da
+linguagem naquele local. O único lançamento na BeOpen foi o Python 2.0,
+e após o lançamento o grupo de desenvolvedores da PythonLabs agrupou-se
+na Digital Creations
+</w/index.php?title=Digital_Creations&action=edit&redlink=1>.
+
+Python 2.0 implementou list comprehension </wiki/List_comprehension>,
+uma relevante funcionalidade de linguagens funcionais como SETL
+</wiki/SETL> e Haskell
+</wiki/Haskell_(linguagem_de_programa%C3%A7%C3%A3o)>. A sintaxe da
+linguagem para essa construção é bastante similar a de Haskell, exceto
+pela preferência do Haskell por caracteres de pontuação e da preferência
+do python por palavras reservadas </wiki/Palavra_reservada> alfabéticas.
+Essa versão 2.0 também introduziu um sistema coletor de lixo
+</wiki/Coletor_de_lixo> capaz de identificar e tratar ciclos de
+referências.^[9] <#cite_note-newin-2.0-9>
+
+Já o 1.6 incluiu uma licença CNRI substancialmente mais longa que a
+licença CWI que estavam usando nas versões anteriores. Entre outras
+mudanças, essa licença incluía uma cláusula atestando que a licença era
+governada pelas leis da Virgínia </wiki/Virg%C3%ADnia>. A Free Software
+Foundation </wiki/Free_Software_Foundation> alegou que isso era
+incompatível com a GNU GPL </wiki/GNU_GPL>. Tanto BeOpen quanto CNRI e
+FSF negociaram uma mudança na licença livre do Python que o tornaria
+compatível com a GPL. Python 1.6.1 é idêntico ao 1.6.0, exceto por
+pequenas correções de falhas e uma licença nova, compatível com a
+GPL.^[10] <#cite_note-hist.C3.B3ria-lib-10>
+
+Python 2.1 era parecido com as versões 1.6.1 e 2.0. Sua licença foi
+renomeada para Python Software Foundation License. Todo código,
+documentação e especificação desde o lançamento da versão alfa
+</wiki/Vers%C3%A3o_alfa> da 2.1 é propriedade da Python Software
+Foundation </wiki/Python_Software_Foundation> (PSF), uma organização sem
+fins lucrativos </wiki/Organiza%C3%A7%C3%A3o_sem_fins_lucrativos>
+fundada em 2001, um modelo tal qual da Apache Software Foundation
+</wiki/Apache_Software_Foundation>.^[10]
+<#cite_note-hist.C3.B3ria-lib-10> O lançamento incluiu a mudança na
+especificação para suportar escopo aninhado, assim como outras
+linguagens com escopo estático.^[11] <#cite_note-11> Esta funcionalidade
+estava desativada por padrão, e somente foi requerida na versão 2.2.
+
+Uma grande inovação da versão 2.2 foi a unificação dos tipos Python
+(escritos em C </wiki/C_(linguagem_de_programa%C3%A7%C3%A3o)>) e classes
+(escritas em Python) em somente uma hierarquia. Isto tornou o modelo de
+objetos do Python consistentemente orientado a objeto.^[12]
+<#cite_note-12> Também foi adicionado generator
+</wiki/Generator_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o)>, inspirado em
+Icon </wiki/Icon>.^[13] <#cite_note-13>
+
+O incremento da biblioteca padrão e as escolhas sintáticas foram
+fortemente influenciadas por Java
+</wiki/Java_(linguagem_de_programa%C3%A7%C3%A3o)> em alguns casos: o
+pacote |logging|^[14] <#cite_note-14> introduzido na versão 2.3,^[15]
+<#cite_note-15> o analisador sintático </wiki/Analisador_sint%C3%A1tico>
+SAX </wiki/SAX>, introduzido na versão 2.0 e a sintaxe de decoradores
+que usa |@|,^[16] <#cite_note-16> adicionadas na versão 2.4.^[17]
+<#cite_note-17>
+
+Em 1 de outubro </wiki/1_de_outubro> de 2008 </wiki/2008> foi lançada a
+versão 2.6, já visando a transição para a versão 3.0 da linguagem. Entre
+outras modificações, foram incluídas bibliotecas
+</wiki/Biblioteca_(computa%C3%A7%C3%A3o)> para multiprocessamento
+</wiki/Multiprocessamento>, JSON </wiki/JSON> e E/S </wiki/E/S>, além de
+uma nova forma de formatação de cadeias de caracteres
+</wiki/Cadeia_de_caracteres>.^[18] <#cite_note-18>
+
+Atualmente a linguagem é usada em diversas áreas, como servidores de
+aplicação </wiki/Servidor_de_aplica%C3%A7%C3%A3o> e computação gráfica
+</wiki/Computa%C3%A7%C3%A3o_gr%C3%A1fica>. Está disponível como
+linguagem de script </wiki/Linguagem_de_script> em aplicações como
+OpenOffice </wiki/OpenOffice> (Python UNO Bridge), Blender
+</wiki/Blender> e pode ser utilizada em procedimentos armazenados
+</wiki/Procedimento_armazenado_(banco_de_dados)> no sistema gerenciador
+de banco de dados </wiki/Sistema_gerenciador_de_banco_de_dados>
+PostgreSQL </wiki/PostgreSQL> (PL/Python).
+
+A terceira versão da linguagem foi lançada em dezembro de 2008,^[19]
+<#cite_note-19> chamada Python 3.0 ou Python 3000. Com noticiado desde
+antes de seu lançamento,^[20] <#cite_note-20> houve quebra de
+compatibilidade com a família 2.x para corrigir falhas que foram
+descobertas neste padrão, e para limpar os excessos das versões
+anteriores.^[5] <#cite_note-Computerworld-5> A primeira versão alfa
+</wiki/Vers%C3%A3o_alfa> foi lançada em 31 de agosto
+</wiki/31_de_agosto> de 2007 </wiki/2007>, a segunda em 7 de dezembro
+</wiki/7_de_dezembro> do mesmo ano.
+
+Mudanças da versão incluem a alteração da palavra reservada
+</wiki/Palavra_reservada> |print|, que passa a ser uma função, tornando
+mais fácil a utilização de uma versão alternativa da rotina. Em Python
+2.6, isso já está disponível ao adicionar o código |from __future__
+import print_function|.^[21] <#cite_note-21> Também, a mudança para
+Unicode </wiki/Unicode> de todas as cadeias de caracteres
+</wiki/Cadeia_de_caracteres>.
+
+
+    Filosofia[editar
+    </w/index.php?title=Python&veaction=edit&vesection=2>| editar
+    código-fonte </w/index.php?title=Python&action=edit&section=2>]
+
+Parte da cultura da linguagem gira ao redor de /The Zen of Python/, um
+poema que faz parte do documento "PEP 20 (The Zen of Python)",^[22]
+<#cite_note-Zen-22> escrito pelo programador </wiki/Programador> em
+Python de longa data Tim Peters
+</w/index.php?title=Tim_Peters&action=edit&redlink=1>, descrevendo
+sumariamente a filosofia do Python. Pode-se vê-lo através de um /easter
+egg </wiki/Easter_egg>/ do Python pelo comando:
+
+>>> import this
+
+
+    Características[editar
+    </w/index.php?title=Python&veaction=edit&vesection=3>| editar
+    código-fonte </w/index.php?title=Python&action=edit&section=3>]
+
+Ver página anexa: Lista de exemplos de código Python
+</wiki/Anexo:Lista_de_exemplos_de_c%C3%B3digo_Python>
+
+
+      Construções[editar
+      </w/index.php?title=Python&veaction=edit&vesection=4>| editar
+      código-fonte </w/index.php?title=Python&action=edit&section=4>]
+
+Construções de Python incluem: estrutura de seleção
+</wiki/Estrutura_de_sele%C3%A7%C3%A3o> (|if|, |else|, |elif|); estrutura
+de repetição </wiki/Estrutura_de_repeti%C3%A7%C3%A3o> (|for, while|),
+que itera por um container, capturando cada elemento em uma variável
+local dada; construção de classes </wiki/Classe_(programa%C3%A7%C3%A3o)>
+(|class|); construção de subrotinas
+</w/index.php?title=Subrotina&action=edit&redlink=1> (|def|); construção
+de escopo (|with|), como por exemplo para adquirir um recurso
+</wiki/Exclus%C3%A3o_m%C3%BAtua>.
+
+
+      Tipos de dado[editar
+      </w/index.php?title=Python&veaction=edit&vesection=5>| editar
+      código-fonte </w/index.php?title=Python&action=edit&section=5>]
+
+A tipagem de Python é forte, pois os valores e objetos têm tipos bem
+definidos e não sofrem coerções como em C
+</wiki/C_(linguagem_de_programa%C3%A7%C3%A3o)> ou Perl </wiki/Perl>. São
+disponibilizados diversos tipos de dados </wiki/Tipo_de_dado> nativos:
+
+Tipo de dado 	Descrição 	Exemplo da sintaxe
+|str|, |unicode| 	Uma cadeia de caracteres </wiki/Cadeia_de_caracteres>
+imutável 	|'Wikipedia'|, |u'Wikipedia'|
+|list| 	Lista </wiki/Lista> heterogênea mutável 	|[4.0, 'string', True]|
+|tuple| 	Tupla </wiki/Tupla> imutável 	|(4.0, 'string', True)|
+|set|, |frozenset| 	Conjunto </wiki/Conjunto> não ordenado
+</wiki/Ordena%C3%A7%C3%A3o_(computa%C3%A7%C3%A3o)>, não contém elementos
+duplicados 	|set([4.0, 'string', True])|
+|frozenset([4.0, 'string', True])|
+|dict| 	conjunto </wiki/Conjunto> associativo 	|{'key1': 1.0, 'key2':
+False}|
+|int| 	Número de precisão fixa, é transparentemente convertido para
+|long| caso não caiba em um int. 	|42|
+|2147483648L|
+|float| 	Ponto flutuante </wiki/Ponto_flutuante> 	|3.1415927|
+|complex| 	Número complexo </wiki/N%C3%BAmero_complexo> 	|3+2j|
+|bool| 	Booleano </wiki/Booleano> 	|True| ou |False|
+
+Python também permite a definição dos tipos de dados próprios, através
+de classes </wiki/Classe_(programa%C3%A7%C3%A3o)>. Instâncias são
+construídas invocando a classe (|FooClass()|), e as classes são
+instância da classe |type|, o que permite metaprogramação
+</wiki/Metaprograma%C3%A7%C3%A3o> e reflexão
+</wiki/Reflex%C3%A3o_(programa%C3%A7%C3%A3o)>. Métodos
+</wiki/M%C3%A9todo_(programa%C3%A7%C3%A3o)> são definidos como funções
+anexadas à classe, e a sintaxe |instância.método(argumento)| é um atalho
+para |Classe.método(instância, argumento)|. Os métodos devem referenciar
+explicitamente a referência para o objeto incluindo o parâmetro |self|
+como o primeiro argumento do método.^[23] <#cite_note-23>
+
+Antes da versão 3.0, Python possuía dois tipos de classes: "old-style" e
+"new-style". Classes old-style foram eliminadas no Python 3.0, e todas
+são new-style. Em versões entre 2.2 e 3.0, ambos tipos de classes podiam
+ser usadas. A sintaxe de ambos estilos é a mesma, a diferença acaba
+sendo de onde objeto da classe é herdado, direta ou indiretamente (todas
+classes new-style herdam de object e são instancias de type). As classes
+new-styles nada mais são que tipos definidos pelo usuário.
+
+
+      Palavras reservadas[editar
+      </w/index.php?title=Python&veaction=edit&vesection=6>| editar
+      código-fonte </w/index.php?title=Python&action=edit&section=6>]
+
+O Python 2.5.2 define as seguintes 31 palavras reservadas
+</wiki/Palavra_reservada>:^[24] <#cite_note-24>
+
+and        del        from        not        while
+as         elif       global      or         with
+assert     else       if          pass       yield
+break      except     import      print
+class      exec       in          raise
+continue   finally    is          return
+def        for        lambda      try
+
+
+      Operadores[editar
+      </w/index.php?title=Python&veaction=edit&vesection=7>| editar
+      código-fonte </w/index.php?title=Python&action=edit&section=7>]
+
+Os operadores básicos de comparação como |==|, |<|, |>=|, entre outros
+são usados em todos os tipos de dados, como números, cadeias de texto,
+listas e mapeamentos. Comparações em cadeia como |a < b < c| possuem o
+mesmo significado básico que na matemática: os termos são comparadas na
+ordem. É garantido que o processamento da expressão lógica irá terminar
+tão cedo o veredito é claro, o princípio da avaliação mínima. Usando a
+expressão anterior, se |a < b| é falso, |c| não é avaliado.
+
+Quanto aos operadores lógicos, até Python 2.2 não havia o tipo de dado
+booleano. Em todas as versões da linguagem os operadores lógicos tratam
+|""|, |0|, |None|, |0.0|, |[]| e |{}| como falso, enquanto o restante é
+tratado como verdadeiro de modo geral. Na versão 2.2.1 as constantes
+|True| e |False| foram adicionadas (subclasses de 1 e 0
+respectivamente). A comparação binária retorna uma das duas constantes
+acima.
+
+Os operadores booleanos |and| e |or| também seguem a avaliação mínima.
+Por exemplo, |y == 0 or x/y > 100| nunca lançará a exceção de divisão
+por zero.
+
+
+      Interpretador interativo[editar
+      </w/index.php?title=Python&veaction=edit&vesection=8>| editar
+      código-fonte </w/index.php?title=Python&action=edit&section=8>]
+
+O interpretador interativo é uma característica diferencial da
+linguagem, porque há a possibilidade de testar o código de um programa e
+receber o resultado em tempo real, antes de iniciar a compilação
+</wiki/Compila%C3%A7%C3%A3o> ou incluí-las nos programas. Por exemplo:
+
+>>> 1+1
+2
+>>>
+>>> a = 1+1
+>>> print a
+2
+>>> print(a)
+2
+>>>
+
+*Nota:* A partir da versão 3.0, o comando |print| passou a ser uma
+função, sendo obrigatório o uso de parênteses.^[25] <#cite_note-25>
+
+
+      Análise léxica[editar
+      </w/index.php?title=Python&veaction=edit&vesection=9>| editar
+      código-fonte </w/index.php?title=Python&action=edit&section=9>]
+
+</wiki/Ficheiro:Python_script.svg>
+</wiki/Ficheiro:Python_script.svg>
+Exemplo de script
+
+No segundo capítulo do /Manual de Referência da Linguagem Python/ é
+citado que a análise léxica </wiki/An%C3%A1lise_l%C3%A9xica> é uma
+análise do interpretador em si, os programas são lidos por um analisador
+sintático </wiki/An%C3%A1lise_sint%C3%A1tica_(computa%C3%A7%C3%A3o)> que
+divide o código em /tokens </wiki/Token>/.
+
+Todo programa é dividido em linhas lógicas que são separadas pelo
+/token/ /NEWLINE/ ou /NOVA LINHA/, as linhas físicas são trechos de
+código divididos pelo caractere /ENTER/. Linhas lógicas não podem
+ultrapassar linhas físicas com exceção de junção de linhas, por exemplo:
+
+if resultado > 2 and \
+    1 <= 5  and \
+    2 < 5:
+        print ('Resultado: %f' % d)
+
+ou
+
+MESES_DO_ANO = ['janeiro', 'fevereiro', 'março',
+                'abril',   'maio',      'junho',
+                'julho',   'agosto',    'setembro',
+                'outubro', 'novembro',  'dezembro']
+
+Para a delimitação de blocos de códigos os delimitadores são colocados
+em uma pilha </wiki/LIFO> e diferenciados por sua indentação
+</wiki/Indenta%C3%A7%C3%A3o>. Iniciando a pilha com valor 0 (zero) e
+colocando valores maiores que os anteriores na pilha. Para cada começo
+de linha, o nível de indentação é comparado com o valor do topo da
+pilha. Se o número da linha for igual ao topo da pilha, a pilha não é
+alterada. Se o valor for maior a pilha recebe o nível de indentação da
+linha e o nome /INDENT/ (empilhamento) se o nível de indentação for
+menor, então é desempilhado até chegar a um nível de indentação
+recebendo o nome /DEDENT/ (desempilhamento) e se não encontrar nenhum
+valor é gerado um erro de indentação.
+
+Abaixo um exemplo de permutação, retirado do capítulo 2.1 sobre
+Estrutura de linhas na Análise léxica do Manual de Referência da
+linguagem (/Language Reference Manual/):
+
+         def perm(l):                   NOVA LINHA
+INDENT        if len(l) <= 1:           NOVA LINHA
+INDENT           return[1]              NOVA LINHA
+DEDENT        r = [ ]                   NOVA LINHA
+              for i in range(len(l)):   NOVA LINHA
+INDENT            s = l[:i] + l[i+1:]   NOVA LINHA
+                  p = perm(s)           NOVA LINHA
+DEDENT        for x in p:               NOVA LINHA
+INDENT            r.append(l[i:i+1]+x)  NOVA LINHA
+DEDENT        return r
+
+
+        Indentação[editar
+        </w/index.php?title=Python&veaction=edit&vesection=10>| editar
+        código-fonte </w/index.php?title=Python&action=edit&section=10>]
+
+Python foi desenvolvido para ser uma linguagem de fácil leitura, com um
+visual agradável, frequentemente usando palavras e não pontuações como
+em outras linguagens. Para a separação de blocos de código, a linguagem
+usa espaços em branco e indentação </wiki/Indenta%C3%A7%C3%A3o> ao invés
+de delimitadores visuais como chaves (C, Java) ou palavras (BASIC
+</wiki/BASIC>, Fortran </wiki/Fortran>, Pascal
+</wiki/Pascal_(linguagem_de_programa%C3%A7%C3%A3o)>). Diferente de
+linguagens com delimitadores visuais de blocos, em Python a indentação é
+obrigatória. O aumento da indentação indica o início de um novo bloco,
+que termina da diminuição da indentação.
+
+Usando um editor de texto </wiki/Editor_de_texto> comum é muito fácil
+existir erros de indentação, o recomendado é configurar o editor
+conforme a análise léxica </wiki/An%C3%A1lise_l%C3%A9xica> do Python ou
+utilizar uma IDE </wiki/Ambiente_de_Desenvolvimento_Integrado>. Todas as
+IDE que suportam a linguagem fazem indentação automaticamente.
+
+Exemplo:
+
+Indentação correta
+
+def valor1():
+    while True:
+        try:
+            c = int(raw_input('Primeiro Valor: '))
+            return c
+        except ValueError:
+            print 'Inválido!'
+
+	
+
+Indentação incorreta
+
+def valor1():
+while True:
+try:
+c = int(raw_input('Primeiro Valor: '))
+return c
+except ValueError:
+print 'Inválido!'
+
+O código está correto para os dois exemplos, mas o analisador léxico
+verificará se a indentação está coerente. O analisador reconhecerá as
+palavras reservadas </wiki/Palavra_reservada> |while|, |def|, |try|,
+|except|, |return|, |print| e as cadeias de caracteres
+</wiki/Cadeia_de_caracteres> entre aspas simples e a indentação, e se
+não houver problemas o programa executará normalmente, senão apresentará
+a exceção: "Seu programa está com erro no bloco de indentação".
+
+
+      Compilador de bytecode[editar
+      </w/index.php?title=Python&veaction=edit&vesection=11>| editar
+      código-fonte </w/index.php?title=Python&action=edit&section=11>]
+
+A linguagem é de altíssimo nível, como já dito, mas ela também pode
+compilar </wiki/Compilador> seus programas para que a próxima vez que o
+executar não precise compilar novamente o programa, reduzindo o tempo de
+carga na execução.
+
+Utilizando o interpretador interativo não é necessário a criação do
+arquivo de Python compilado, os comandos são executados interativamente.
+Porém quando um programa ou um módulo é evocado, o interpretador realiza
+a análise léxica e sintática, compila o código de alto nível se
+necessário e o executa na máquina virtual </wiki/M%C3%A1quina_virtual>
+da linguagem.
+
+O /bytecode </wiki/Bytecode>/ é armazenado em arquivos com extensão
+|.pyc| ou |.pyo|, este último no caso de /bytecode/ otimizado.
+Interessante notar que o /bytecode/ da linguagem também é de alto nível,
+ou seja, é mais legível aos seres humanos que o código de byte do C, por
+exemplo. Para descompilar um código de byte é utilizado o módulo |dis|
+da biblioteca padrão da linguagem e existem módulos de terceiros que
+tornam o /bytecode/ mais confuso, tornando a descompilação ineficaz.
+
+Normalmente, o Python trabalha com dois grupos de arquivos:
+
+ 1. Os módulos do núcleo </wiki/N%C3%BAcleo_(inform%C3%A1tica)> da
+    linguagem, sua biblioteca padrão e os módulos independentes, criados
+    pelo usuário.
+ 2. No núcleo do interpretador existe o analisador léxico, o analisador
+    sintático que utiliza /Estruturas de Objetos/ (tempo de execução
+    </wiki/Tempo_de_execu%C3%A7%C3%A3o>), o Compilador que /aloca
+    memória/ (tempo de execução) e depois do Avaliador de código que
+    modifica o /estado atual/ do programa (tempo de execução), mostrando
+    resultado para o usuário.
+
+
+      Polimorfismo[editar
+      </w/index.php?title=Python&veaction=edit&vesection=12>| editar
+      código-fonte </w/index.php?title=Python&action=edit&section=12>]
+
+O conceito de polimorfismo </wiki/Polimorfismo> descreve como objetos
+podem ser manipulados e acessados usando atributos e comportamentos em
+comum sem considerar sua classe específica e indica a presença de /late
+binding </w/index.php?title=Late_binding&action=edit&redlink=1>/,
+permitindo sobrecarga e determinação de tipos em tempo de execução e
+verificação.
+
+Muitas linguagens orientadas a objeto utilizam assinaturas de função
+para determinar qual versão de um método sobrecarregado chamar. No
+entanto, as chamadas de função em Python são universais ou genéricas sem
+determinação de tipo. Por isso, sobrecarga não é suportada na linguagem.
+
+
+      Orientação a objetos[editar
+      </w/index.php?title=Python&veaction=edit&vesection=13>| editar
+      código-fonte </w/index.php?title=Python&action=edit&section=13>]
+
+Python suporta a maioria das técnicas da programação orientada a objeto
+</wiki/Programa%C3%A7%C3%A3o_orientada_a_objeto>. Qualquer objeto pode
+ser usado para qualquer tipo, e o código funcionará enquanto haja
+métodos e atributos adequados. O conceito de objeto na linguagem é
+bastante abrangente: classes, funções, números e módulos são todos
+considerados objetos. Também há suporte para metaclasses
+</wiki/Metaclasse>, polimorfismo </wiki/Polimorfismo>, e herança
+</wiki/Heran%C3%A7a_(programa%C3%A7%C3%A3o)> (inclusive herança múltipla
+</wiki/Heran%C3%A7a_m%C3%BAltipla>). Há um suporte limitado para
+variáveis privadas.
+
+Na versão 2.2 de Python foi introduzido um novo estilo de classes em que
+objetos e tipos foram unificados, permitindo a especialização de tipos.
+Já a partir da versão 2.3 foi introduzido um novo método de resolução de
+ambiguidades para heranças múltiplas.^[26] <#cite_note-26>
+
+Uma classe é definida com |class nome:|, e o código seguinte é a
+composição dos atributos. Todos os métodos da classe recebem uma
+referência a uma instância da própria classe como seu primeiro
+argumento, e a convenção é que se chame este argumento |self|. Assim os
+métodos são chamados |objeto.método(argumento1, argumento2, ...)| e são
+definidos iguais a uma função, como |método(self, argumento1,
+argumento2, ...)|. Veja que o parâmetro |self| conterá uma referência
+para a instância da classe definida em |objeto| quando for efetuada esta
+chamada. Os atributos da classe podem ser acessados em qualquer lugar da
+classe, e os atributos de instância (ou variável de instância) devem ser
+declarados dentro dos métodos utilizando a referência à instância atual
+(/self/) /(ver código contextualizado em anexo
+</wiki/Anexo:Lista_de_exemplos_de_c%C3%B3digo_Python#Orienta.C3.A7.C3.A3o_a_objeto>)/.
+
+Em Python não existe proteção dos membros duma classe ou instância pelo
+interpretador, o chamado encapsulamento </wiki/Encapsulamento>.
+Convenciona-se que atributos com o nome começando com um _ são de uso
+privado da classe, mas não há um policiamento do interpretador contra
+acesso a estes atributos. Uma exceção são nomes começando com |__|, no
+caso em que o interpretador modifica o nome do atributo /(ver código
+contextualizado em anexo
+</wiki/Anexo:Lista_de_exemplos_de_c%C3%B3digo_Python#Encapsulamento>)/.
+
+Python permite polimorfismo, que condiz com a reutilização de código. É
+fato que funções semelhantes em várias partes do software sejam
+utilizadas várias vezes, então definimos esta função como uma biblioteca
+e todas as outras funções que precisarem desta a chamam sem a
+necessidade de reescrevê-la /(ver código contextualizado em anexo
+</wiki/Anexo:Lista_de_exemplos_de_c%C3%B3digo_Python#Polimorfismo>)/.
+
+
+      Programação funcional[editar
+      </w/index.php?title=Python&veaction=edit&vesection=14>| editar
+      código-fonte </w/index.php?title=Python&action=edit&section=14>]
+
+Uma das construções funcionais de Python é compreensão de listas
+</wiki/List_comprehension>, uma forma de construir listas. Por exemplo,
+pode-se usar a técnica para calcular as cinco primeiras potências de
+dois. O algoritmo /quicksort </wiki/Quicksort>/ também pode ser
+expressado usando a mesma técnica /(ver códigos contextualizados para
+ambos os casos em anexo
+</wiki/Anexo:Lista_de_exemplos_de_c%C3%B3digo_Python#Compreens.C3.A3o_de_listas>)/.
+
+Em Python, funções são objetos de primeira classe que podem ser criados
+e armazenados dinamicamente. O suporte à funções anônimas está na
+construção |lambda| (cálculo Lambda </wiki/C%C3%A1lculo_Lambda>). Não há
+disponibilidade de funções anônimas de fato, pois os lambdas contêm
+somente expressões e não blocos de código.
+
+Python também suporta clausuras léxicas
+</wiki/Clausura_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o)> desde a versão
+2.2 /(ver códigos contextualizados para ambos os casos em anexo
+</wiki/Anexo:Lista_de_exemplos_de_c%C3%B3digo_Python#Closures>)/. Já
+geradores </wiki/Generator_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o)> foram
+introduzidos na versão 2.2 e finalizados na versão 2.3, e representam o
+mecanismo de Python para a avaliação preguiçosa
+</wiki/Avalia%C3%A7%C3%A3o_pregui%C3%A7osa> de funções /(ver códigos
+contextualizados para ambos os casos em anexo
+</wiki/Anexo:Lista_de_exemplos_de_c%C3%B3digo_Python#Geradores>)/.
+
+
+      Tratamento de exceções[editar
+      </w/index.php?title=Python&veaction=edit&vesection=15>| editar
+      código-fonte </w/index.php?title=Python&action=edit&section=15>]
+
+Python suporta e faz uso constante de tratamento de exceções
+</wiki/Tratamento_de_exce%C3%A7%C3%B5es> como uma forma de testar
+condições de erro e outros eventos inesperados no programa. É inclusive
+possível capturar uma exceção causada por um erro de sintaxe. O estilo
+da linguagem apóia o uso de exceções sempre que uma condição de erro
+pode aparecer. Por exemplo, ao invés de testar a disponibilidade de
+acesso a um recurso, a convenção é simplesmente tentar usar o recurso e
+capturar a exceção caso o acesso seja rejeitado (recurso inexistente,
+permissão de acesso insuficiente, recurso já em uso, ...).
+
+Exceções são usadas frequentemente como uma estrutura de seleção,
+substituindo blocos |if-else|, especialmente em situações que envolvem
+/threads </wiki/Thread_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o)>/. Uma
+convenção de codificação é o EAFP, do inglês, "é mais fácil pedir perdão
+que permissão". Isso significa que em termos de desempenho é preferível
+capturar exceções do que testar atributos antes de os usar. Segue abaixo
+exemplos de código que testam atributos ("pedem permissão") e que
+capturam exceções ("pedem perdão"):
+
+Teste de atributo
+
+if hasattr(spam, 'eggs'):
+    ham = spam.eggs
+else:
+    handle_error()
+
+	
+
+Captura de exceção
+
+try:
+    ham = spam.eggs
+except AttributeError:
+    handle_error()
+
+Ambos os códigos produzem o mesmo efeito, mas há diferenças de
+desempenho. Quando |spam| possui o atributo |eggs|, o código que captura
+exceções é mais rápido. Caso contrário, a captura da exceção representa
+uma perda considerável de desempenho, e o código que testa o atributo é
+mais rápido. Na maioria dos casos o paradigma da captura de exceções é
+mais rápido, e também pode evitar problemas de concorrência
+</wiki/Concorr%C3%AAncia_(inform%C3%A1tica)>.^[27] <#cite_note-27> Por
+exemplo, num ambiente multitarefa, o espaço de tempo entre o teste do
+atributo e seu uso de fato pode invalidar o atributo, problema que não
+acontece no caso da captura de exceções.
+
+
+      Biblioteca padrão[editar
+      </w/index.php?title=Python&veaction=edit&vesection=16>| editar
+      código-fonte </w/index.php?title=Python&action=edit&section=16>]
+
+Python possui uma grande biblioteca </wiki/Biblioteca_de_rotinas>
+padrão, geralmente citada como um dos maiores triunfos da
+linguagem,^[28] <#cite_note-28> fornecendo ferramentas para diversas
+tarefas. Recentemente, a biblioteca Boost </wiki/Biblioteca_Boost> do
+C++ </wiki/C%2B%2B> incluiu uma biblioteca para permitir a
+interoperabilidade entre as duas linguagens. Por conta da grande
+variedade de ferramentas fornecida pela biblioteca padrão, combinada com
+a a habilidade de usar linguagens de nível mais baixo como C e C++,
+Python pode ser poderosa para conectar componentes diversos de software.
+
+A biblioteca padrão conta com facilidades para escrever aplicações para
+a Internet </wiki/Internet>, contando com diversos formatos e protocolos
+</wiki/Protocolo_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o)> como MIME
+</wiki/MIME> e HTTP </wiki/Hypertext_Transfer_Protocol>. Também há
+módulos para criar interfaces gráficas
+</wiki/Interface_gr%C3%A1fica_do_utilizador>, conectar em bancos de
+dados relacionais </wiki/Banco_de_dados_relacional> e manipular
+expressões regulares </wiki/Express%C3%A3o_regular>.
+
+Algumas partes da biblioteca são cobertas por especificações (por
+exemplo, a implementação WSGI </wiki/Web_Server_Gateway_Interface> da
+|wsgiref| segue o PEP 333^[29] <#cite_note-29> ), mas a maioria dos
+módulos não segue.
+
+
+      Comentários[editar
+      </w/index.php?title=Python&veaction=edit&vesection=17>| editar
+      código-fonte </w/index.php?title=Python&action=edit&section=17>]
+
+Python fornece duas alternativas para documentar o código. A primeira é
+o uso de comentários para indicar o que certo código faz. Comentários
+começam com |#| e são terminados pela quebra da linha. Não há suporte
+para comentários que se estendem por mais de uma linha; cada linha
+consecutiva de comentário deve indicar |#|. A segunda alternativa é o
+uso de cadeias de caractere, literais de texto inseridos no código sem
+atribuição. Cadeias de caracteres em Python são delimitadas por |"| ou
+|'| para única linha e por |"""| ou |'''| para múltiplas linhas.
+Entretanto, é convenção usar o métodos de múltiplas linhas em ambos os
+casos.
+
+Diferente de comentários, a cadeias de caracteres usadas como
+documentação são objetos Python e fazem parte do código interpretado.
+Isso significa que um programa pode acessar sua própria documentação e
+manipular a informação. Há ferramentas que extraem automaticamente essa
+documentação para a geração da documentação de API </wiki/API> a partir
+do código. Documentação através de cadeias de caracteres também pode ser
+acessada a partir do interpretador através da função |help()|.
+
+
+    Plataformas disponíveis[editar
+    </w/index.php?title=Python&veaction=edit&vesection=18>| editar
+    código-fonte </w/index.php?title=Python&action=edit&section=18>]
+
+A linguagem e seu interpretador estão disponíveis para as mais diversas
+plataformas </wiki/Plataforma_(inform%C3%A1tica)>, desde Unix
+</wiki/Unix> (Linux </wiki/Linux>, FreeBSD </wiki/FreeBSD>, Solaris
+</wiki/Solaris>, MacOS X </wiki/MacOS_X>, etc.), Windows
+</wiki/Windows>, .NET </wiki/.NET>, versões antigas de MacOS
+</wiki/MacOS> até consoles de jogos eletrônicos ou mesmo alguns
+celulares, como a série 60, N8xx(PyMaemo) da Nokia </wiki/Nokia> e
+palmtops </wiki/PDA>.
+
+Para algum sistema operacional </wiki/Sistema_operacional> não
+suportado, basta que exista um compilador </wiki/Compilador> C
+disponível e gerar o Python a partir do fonte. O código fonte é
+traduzido pelo interpretador para o formato /bytecode </wiki/Bytecode>/,
+que é multiplataforma </wiki/Multiplataforma> e pode ser executado e
+distribuído sem fonte original.
+
+
+    Implementações[editar
+    </w/index.php?title=Python&veaction=edit&vesection=19>| editar
+    código-fonte </w/index.php?title=Python&action=edit&section=19>]
+
+A implementação original e mais conhecida do Python é o /CPython
+</wiki/CPython>/, escrita em C
+</wiki/C_(linguagem_de_programa%C3%A7%C3%A3o)> e compatível com o padrão
+C89 </wiki/C89>,^[30] <#cite_note-30> sendo distribuída com uma grande
+biblioteca padrão escrita em um misto de Python e C. Esta implementação
+é suportada em diversas plataformas, incluindo Microsoft Windows
+</wiki/Microsoft_Windows> e sistemas Unix-like </wiki/Unix-like> modernos.
+
+Stackless Python
+</w/index.php?title=Stackless_Python&action=edit&redlink=1> é uma
+variação do CPython que implementa microthreads
+</w/index.php?title=Microthread&action=edit&redlink=1> (permitindo
+multitarefa </wiki/Multitarefa> sem o uso de threads
+</wiki/Thread_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o)>), sendo suportada
+em quase todas as plataformas que a implementação original.
+
+Existem também implementações para plataformas já existentes: Jython
+</wiki/Jython> para a Plataforma Java </wiki/Plataforma_Java> e
+IronPython </wiki/IronPython> para .NET </wiki/.NET>.
+
+Em 2005 </wiki/2005> a Nokia </wiki/Nokia> lançou um interpretador
+Python para os telefones celulares </wiki/Telefone_celular> S60
+</w/index.php?title=S60&action=edit&redlink=1>, chamado PyS60
+</w/index.php?title=PyS60&action=edit&redlink=1>. Essa versão inclui
+vários módulos das implementações tradicionais, mas também alguns
+módulos adicionais para a integração com o sistema operacional Symbian
+</wiki/Symbian>. Uma implementação para Palm </wiki/Palm> pode ser
+encontrada no Pippy </w/index.php?title=Pippy&action=edit&redlink=1>. Já
+o PyPy </w/index.php?title=PyPy&action=edit&redlink=1>, é a linguagem
+Python totalmente escrita em Python.
+
+Diversas implementações, como CPython, pode funcionar como um
+interpretador de comandos </wiki/Interpretador_de_comandos> em que o
+usuário executa as instruções sequencialmente, recebendo o resultado
+automaticamente. A execução compilada do código oferece um ganho
+substancial em velocidade, com o custo da perda da interatividade
+</wiki/Interatividade>.
+
+
+    Desenvolvimento[editar
+    </w/index.php?title=Python&veaction=edit&vesection=20>| editar
+    código-fonte </w/index.php?title=Python&action=edit&section=20>]
+
+O desenvolvimento de Python é conduzido amplamente através do processo
+Python Enhancement Proposal ("PEP"), em português Proposta de Melhoria
+do Python. Os PEPs são documentos de projeto padronizados que fornecem
+informações gerais relacionadas ao Python, incluindo propostas,
+descrições, justificativas de projeto
+</w/index.php?title=Justificativas_de_projeto&action=edit&redlink=1>
+(design rationales) e explicações para características da linguagem.
+PEPs pendentes são revisados e comentados por Van Rossum, o Benevolent
+Dictator for Life </wiki/Benevolent_Dictator_for_Life> (líder arquiteto
+da linguagem) do projeto Python. Desenvolvedores do CPython também se
+comunicam através de uma lista de discussão, python-dev, que é o fórum
+principal para discussão sobre o desenvolvimento da linguagem. Questões
+específicas são discutidas no gerenciador de erros
+</w/index.php?title=Sistema_de_gerenciamento_de_erros&action=edit&redlink=1>
+Roundup
+</w/index.php?title=Roundup_(gerenciador_de_erros)&action=edit&redlink=1> mantido
+em python.org. O desenvolvimento acontece no auto-hospedado svn
+</wiki/Subversion>.python.org
+
+
+    Licença[editar
+    </w/index.php?title=Python&veaction=edit&vesection=21>| editar
+    código-fonte </w/index.php?title=Python&action=edit&section=21>]
+
+Python possui uma licença livre </wiki/C%C3%B3digo_livre> aprovada pela
+OSI </wiki/Open_Source_Initiative> e compatível com a GPL
+</wiki/GNU_General_Public_License>, porém menos restritiva. Ela prevê
+(entre outras coisas) que binários da linguagem sejam distribuídos sem a
+necessidade de fornecer o código fonte </wiki/C%C3%B3digo_fonte>
+junto.^[31] <#cite_note-31>
+
+
+    Módulos e /frameworks/[editar
+    </w/index.php?title=Python&veaction=edit&vesection=22>| editar
+    código-fonte </w/index.php?title=Python&action=edit&section=22>]
+
+Ao longo do tempo têm sido desenvolvidos pela comunidade de
+programadores muitas bibliotecas de funções especializadas
+</wiki/Biblioteca_de_rotinas> (módulos) que permitem expandir as
+capacidades base da linguagem. Entre estes módulos especializados
+destacam-se:
+
+	Descrição 	Campos de atuação
+Django </wiki/Django_(framework_web)> 	/Framework/ para desenvolvimento
+ágil de aplicações web </wiki/WWW>; 	desenvolvimento web
+</wiki/Desenvolvimento_web>
+Pylons </wiki/Pylons_(framework_web)> 	/Framework/ para desenvolvimento
+de aplicações web </wiki/WWW>; 	desenvolvimento web
+TurboGears </wiki/TurboGears_(framework_web)> 	/Framework/ baseado em
+várias outras tecnologias existentes no mundo que gira em torno da
+linguagem Python; 	desenvolvimento web
+Matplotlib </w/index.php?title=Matplotlib&action=edit&redlink=1> -
+Matplotlib / Pylab 	biblioteca para manipulação de gráficos 2D;
+processamento de imagem </wiki/Processamento_de_imagem>
+Python Imaging Library </wiki/Python_Imaging_Library> 	biblioteca para
+manipulação de imagens digitais </wiki/Imagem_digital>; 	processamento
+de imagem
+PyOpenGL </w/index.php?title=PyOpenGL&action=edit&redlink=1> - Python
+OpenGL Binding 	suporte multiplataforma </wiki/Multiplataforma> ao
+OpenGL </wiki/OpenGL>; 	computação gráfica
+</wiki/Computa%C3%A7%C3%A3o_gr%C3%A1fica>
+Pygame </wiki/Pygame> 	Conjunto de módulos para o desenvolvimento de
+jogos eletrônicos </wiki/Desenvolvimento_de_jogos_eletr%C3%B4nicos>,
+incluindo gráficos SDL </wiki/SDL_(biblioteca)>; 	desenvolvimento de
+jogos eletrônicos </wiki/Desenvolvimento_de_jogos_eletr%C3%B4nicos>;
+computação gráfica
+Twisted </wiki/Twisted> 	/Framework/ para o desenvolvimento de
+aplicações de rede. Inclui módulos para servidor web
+</wiki/Servidor_web>, de aplicação
+</wiki/Servidor_de_aplica%C3%A7%C3%A3o>, SSH </wiki/SSH> e diversos
+outros protocolos
+</wiki/Protocolo_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o)>;
+desenvolvimento de software </wiki/Desenvolvimento_de_software>;
+desenvolvimento web
+PYRO </w/index.php?title=PYRO&action=edit&redlink=1> - /Python Remote
+Objects/ 	/Framework/ para o desenvolvimento de sistemas distribuídos
+</wiki/Computa%C3%A7%C3%A3o_distribu%C3%ADda>; 	computação distribuída
+</wiki/Computa%C3%A7%C3%A3o_distribu%C3%ADda>
+ZODB </wiki/ZODB> 	Sistema de persistência
+</wiki/Persist%C3%AAncia_de_dados> e banco de dados orientado a objetos
+</wiki/Banco_de_dados_orientado_a_objetos>; 	banco de dados
+</wiki/Banco_de_dados>
+Plone </wiki/Plone> 	SGC - Sistema de gerenciamento de conteúdo
+</wiki/Sistema_de_gerenciamento_de_conte%C3%BAdo>; 	desenvolvimento web
+CherryPy </wiki/CherryPy> 	/Framework/ para aplicações web;
+desenvolvimento web
+Web2py </w/index.php?title=Web2py&action=edit&redlink=1> 	/Framework/
+para aplicações web; 	desenvolvimento web
+Visual Python </w/index.php?title=Visual_Python&action=edit&redlink=1>
+/Framework/ 3D de alto nível; 	computação gráfica
+SQLObject </wiki/SQLObject> 	Mapeador objeto-relacional
+</wiki/Mapeamento_objeto-relacional>: traduz estruturas relacionais para
+objetos Python e manipula o banco de dados </wiki/Banco_de_dados> de
+forma transparente; 	banco de dados
+Numarray </w/index.php?title=Numarray&action=edit&redlink=1> 	Módulo
+para manipulação de vetores e computação científica
+</wiki/Computa%C3%A7%C3%A3o_cient%C3%ADfica>. 	computação científica
+</wiki/Computa%C3%A7%C3%A3o_cient%C3%ADfica>
+
+
+      Interfaces gráficas[editar
+      </w/index.php?title=Python&veaction=edit&vesection=23>| editar
+      código-fonte </w/index.php?title=Python&action=edit&section=23>]
+
+Exemplos de bibliotecas </wiki/Biblioteca_de_rotinas> de GUI </wiki/GUI>
+disponíveis para Python incluem:
+
+	Descrição
+Etk </w/index.php?title=Etk&action=edit&redlink=1> 	interface para a
+biblioteca EFL </wiki/Enlightenment_Foundation_Libraries>
+PyGTK </wiki/PyGTK> 	interface para a biblioteca GTK </wiki/GTK>
+PyQT </wiki/PyQT> 	interface para a biblioteca QT </wiki/QT>
+Tkinter </wiki/Tkinter> 	Módulo padrão para GUI no Python
+wxPython </wiki/WxPython> 	interface para a biblioteca wxWidgets
+</wiki/WxWidgets>
+Wax </w/index.php?title=Wax_(inform%C3%A1tica)&action=edit&redlink=1>
+Construído para simplificar o uso do wxPython
+
+
+    Ambientes de desenvolvimento integrado[editar
+    </w/index.php?title=Python&veaction=edit&vesection=24>| editar
+    código-fonte </w/index.php?title=Python&action=edit&section=24>]
+
+Existem vários ambientes de desenvolvimento integrado
+</wiki/Ambiente_de_desenvolvimento_integrado> (IDE) disponíveis para Python:
+
+	Desenvolvedor 	Última versão 	Platforma
+</wiki/Plataforma_(inform%C3%A1tica)> 	/Toolkit </wiki/Toolkit>/
+Licença </wiki/Licen%C3%A7a_de_Software>
+Boa Constructor
+</w/index.php?title=Boa_Constructor&action=edit&redlink=1> 	Team
+0.6.1 	Independente 	wxPython </wiki/WxPython> 	GPL
+</wiki/GNU_General_Public_License>
+Eric Python IDE </wiki/Eric_Python_IDE> 	Detlev Offenbach 	4.1.2
+Independente 	Qt </wiki/Qt> 	GPL </wiki/GNU_General_Public_License>
+Geany </wiki/Geany> 	Team 	1.23 	Independente 	GTK2 </wiki/GTK%2B> 	GPL
+</wiki/GNU_General_Public_License>
+IDLE </wiki/IDLE> 	Guido van Rossum </wiki/Guido_van_Rossum> et al. 	3.0
+/ 2008 	Independente 	Tkinter </wiki/Tkinter> 	PSFL
+</w/index.php?title=Python_Software_Foundation_License&action=edit&redlink=1>
+
+IronPython Studio
+</w/index.php?title=IronPython_Studio&action=edit&redlink=1> 	Clarius
+Labs 	1.0 / 10 de dezembro de 2007 	Windows </wiki/Windows> 	VS2008
+</wiki/Visual_Studio> Shell Runtime 	Microsoft Public License
+Komodo </w/index.php?title=ActiveState_Komodo&action=edit&redlink=1>
+ActiveState </w/index.php?title=ActiveState&action=edit&redlink=1>
+4.1.1 / junho de 2007 	multiplataforma </wiki/Multiplataforma>
+Plataforma Mozilla </wiki/Mozilla> 	Propretário
+</wiki/Software_propriet%C3%A1rio>
+PyDev </w/index.php?title=PyDev&action=edit&redlink=1> (Eclipse
+</wiki/Eclipse_(IDE)>) 	Fabio Zadrozny 	1.3.13 	multiplataforma
+</wiki/Multiplataforma> 	SWT </wiki/Standard_Widget_Toolkit> 	EPL
+</w/index.php?title=Eclipse_Public_License&action=edit&redlink=1> 	
+PythonCard </wiki/PythonCard> 	Alex Tweedly 	0.8.2 	multiplataforma
+</wiki/Multiplataforma> 	wxPython </wiki/WxPython> 	Licença BSD
+</wiki/Licen%C3%A7a_BSD>
+PyScripter </w/index.php?title=PyScripter&action=edit&redlink=1>
+mmm-experts 	1.7.2 / outubro de 2006 	Windows </wiki/Windows> 		MIT
+</wiki/Licen%C3%A7a_MIT>
+Stani's Python Editor
+</w/index.php?title=Stani%27s_Python_Editor&action=edit&redlink=1>
+Stani 	0.8.4c / 14 de fevereiro de 2008 	Independente 	wxPython
+</wiki/WxPython> 	GPL </wiki/GNU_General_Public_License>
+Wing IDE </w/index.php?title=Wing_IDE&action=edit&redlink=1> 	Wingware
+3.0.2-1 / 27 de novembro de 2007 	Windows </wiki/Windows>, Linux
+</wiki/Linux>, OS X </wiki/OS_X> 	PyGTK </wiki/PyGTK> 	Propretário
+</wiki/Software_propriet%C3%A1rio>
+
+
+    Aplicações[editar
+    </w/index.php?title=Python&veaction=edit&vesection=25>| editar
+    código-fonte </w/index.php?title=Python&action=edit&section=25>]
+
+Alguns dos maiores projetos que utilizam Python são o servidor de
+aplicação </wiki/Servidor_de_aplica%C3%A7%C3%A3o> Zope </wiki/Zope>, o
+compartilhador de arquivos Mnet </wiki/Mnet>, o sítio YouTube
+</wiki/YouTube> e o cliente original do BitTorrent </wiki/BitTorrent>.
+Grandes organizações que usam a linguagem incluem Google
+</wiki/Google>^[32] <#cite_note-32> (parte dos /crawlers
+</wiki/Crawler>/), Yahoo! </wiki/Yahoo!> (para o sítio de grupos de
+usuários) e NASA </wiki/NASA>.^[33] <#cite_note-33> O sistema de
+gerenciamento de reservas da Air Canada </wiki/Air_Canada> também usa
+Python em alguns de seus componentes.^[34] <#cite_note-34> A linguagem
+também tem bastante uso na indústria da segurança da informação
+</wiki/Seguran%C3%A7a_da_informa%C3%A7%C3%A3o>.
+
+A linguagem tem sido embarcada como linguagem de script em diversos
+softwares, como em programas de edição tridimensional como Maya
+</wiki/Maya_(software)>,^[35] <#cite_note-35> Autodesk Softimage
+</wiki/Autodesk_Softimage>, TrueSpace </wiki/TrueSpace> e Blender
+</wiki/Blender>.^[36] <#cite_note-36> Programas de edição de imagem
+também a usam para scripts, como o GIMP </wiki/GIMP>.^[37]
+<#cite_note-37> Para diversos sistema operacionais a linguagem já é um
+componente padrão, estando disponível em diversas distribuições Linux
+</wiki/Linux>. O Red Hat Linux </wiki/Red_Hat_Linux> usa Python para
+instalação, configuração e gerenciamento de pacotes.
+
+Outros exemplos incluem o Plone </wiki/Plone>, sistema de gerenciamento
+de conteúdo </wiki/Sistema_de_gerenciamento_de_conte%C3%BAdo>
+desenvolvido em Python e Zope e a Industrial Light & Magic
+</wiki/Industrial_Light_%26_Magic>,^[38] <#cite_note-38> que produz
+filmes da série /Star Wars </wiki/Star_Wars>/ usando extensivamente
+Python para a computação gráfica
+</wiki/Computa%C3%A7%C3%A3o_gr%C3%A1fica> nos processos de produção dos
+filmes.
+
+
+    Referências
+
+ 1. ↑ ^/*Ir para: a <#cite_ref-svn-hist.C3.B3ria_1-0>*/ ^/*b
+    <#cite_ref-svn-hist.C3.B3ria_1-1>*/ ^/*c
+    <#cite_ref-svn-hist.C3.B3ria_1-2>*/ ^/*d
+    <#cite_ref-svn-hist.C3.B3ria_1-3>*/ HISTORY
+    <http://svn.python.org/view/*checkout*/python/trunk/Misc/HISTORY>
+    (em inglês </wiki/L%C3%ADngua_inglesa>) Python Software Foundation
+    </wiki/Python_Software_Foundation> /Fonte do Python/. Visitado em
+    2008-06-05.
+ 2. Ir para cima ↑ <#cite_ref-2> Python 3.4.1
+    <https://www.python.org/download/releases/3.4.1/> (em inglês) (18 de
+    maio de 2014). Visitado em 23 de maio de 2014.
+ 3. ↑ ^/*Ir para: a <#cite_ref-influ.C3.AAncias_3-0>*/ ^/*b
+    <#cite_ref-influ.C3.AAncias_3-1>*/ ^/*c
+    <#cite_ref-influ.C3.AAncias_3-2>*/ Guido van Rossum (Maio de 1996).
+    Foreword for "Programming Python" (1st ed.)
+    <http://www.python.org/doc/essays/foreword/> (em inglês) Python
+    Software Foundation </wiki/Python_Software_Foundation>. Visitado em
+    12 de junho de 2008.
+ 4. ↑ ^/*Ir para: a <#cite_ref-entrevista-venners-pt-1_4-0>*/ ^/*b
+    <#cite_ref-entrevista-venners-pt-1_4-1>*/ The Making of Python
+    <http://www.artima.com/intv/pythonP.html> (em inglês
+    </wiki/L%C3%ADngua_inglesa>) Artima Developer. Visitado em 2007-03-22.
+ 5. ↑ ^/*Ir para: a <#cite_ref-Computerworld_5-0>*/ ^/*b
+    <#cite_ref-Computerworld_5-1>*/ ^/*c <#cite_ref-Computerworld_5-2>*/
+    ^/*d <#cite_ref-Computerworld_5-3>*/ Naomi Hamilton (5 de agosto de
+    2008). The A-Z of Programming Languages: Python
+    <http://www.computerworld.com.au/article/255835/a-z_programming_languages_python/?fp=4194304&fpid=1&pf=1>
+    (em inglês) Computerworld. Visitado em 17 de agosto de 2008.
+ 6. ↑ ^/*Ir para: a <#cite_ref-faq-criado_6-0>*/ ^/*b
+    <#cite_ref-faq-criado_6-1>*/ Why was Python created in the first
+    place?
+    <http://docs.python.org/faq/general#why-was-python-created-in-the-first-place>
+    (em inglês </wiki/L%C3%ADngua_inglesa>) Python FAQ. Visitado em
+    2007-03-22.
+ 7. Ir para cima ↑ <#cite_ref-7> LJ #37: Python 1.4 Update
+    <http://www.amk.ca/python/writing/12-14> (em inglês
+    </wiki/L%C3%ADngua_inglesa>). Visitado em 2007-04-29.
+ 8. Ir para cima ↑ <#cite_ref-8> Guido van Rossum. Computer Programming
+    for Everybody <http://www.python.org/doc/essays/cp4e.html> (em
+    inglês </wiki/L%C3%ADngua_inglesa>). Visitado em 2007-03-22.
+ 9. Ir para cima ↑ <#cite_ref-newin-2.0_9-0> A.M. Kuchling and Moshe
+    Zadka. What's New in Python 2.0 <http://www.amk.ca/python/2.0/> (em
+    inglês </wiki/L%C3%ADngua_inglesa>). Visitado em 2007-03-22.
+10. ↑ ^/*Ir para: a <#cite_ref-hist.C3.B3ria-lib_10-0>*/ ^/*b
+    <#cite_ref-hist.C3.B3ria-lib_10-1>*/ History of the software
+    <http://docs.python.org/release/2.5/lib/node951.html> (em inglês
+    </wiki/L%C3%ADngua_inglesa>) /Referência da Biblioteca Python/.
+11. Ir para cima ↑ <#cite_ref-11> Jeremy Hylton. Statically Nested
+    Scopes <http://www.python.org/dev/peps/pep-0227/> (em inglês
+    </wiki/L%C3%ADngua_inglesa>). Visitado em 2007-03-22.
+12. Ir para cima ↑ <#cite_ref-12> 2 PEPs 252 and 253: Type and Class
+    Changes
+    <http://docs.python.org/release/2.2.3/whatsnew/sect-rellinks.html>
+    (em inglês </wiki/L%C3%ADngua_inglesa>) Python Software Foundation
+    </wiki/Python_Software_Foundation>. Visitado em 11 de junho de 2008.
+13. Ir para cima ↑ <#cite_ref-13> 4 PEP 255: Simple Generators
+    <http://docs.python.org/release/2.2.3/whatsnew/node5.html> (em
+    inglês </wiki/L%C3%ADngua_inglesa>) Python Software Foundation
+    </wiki/Python_Software_Foundation>. Visitado em 11 de junho de 2008.
+14. Ir para cima ↑ <#cite_ref-14> PEP 282 - A Logging System
+    <http://www.python.org/dev/peps/pep-0282/> (em inglês
+    </wiki/L%C3%ADngua_inglesa>) Python Software Foundation
+    </wiki/Python_Software_Foundation>. Visitado em 11 de junho de 2008.
+15. Ir para cima ↑ <#cite_ref-15> 8 PEP 282: The logging Package
+    <http://docs.python.org/release/2.3/whatsnew/node9.html> (em inglês
+    </wiki/L%C3%ADngua_inglesa>) Python Software Foundation
+    </wiki/Python_Software_Foundation>. Visitado em 11 de junho de 2008.
+16. Ir para cima ↑ <#cite_ref-16> PEP 318 - Decorators for Functions and
+    Methods <http://www.python.org/dev/peps/pep-0318/> (em inglês
+    </wiki/L%C3%ADngua_inglesa>) Python Software Foundation
+    </wiki/Python_Software_Foundation>. Visitado em 11 de junho de 2008.
+17. Ir para cima ↑ <#cite_ref-17> 5 PEP 318: Decorators for Functions
+    and Methods <http://docs.python.org/release/2.4/whatsnew/node6.html>
+    (em inglês </wiki/L%C3%ADngua_inglesa>) Python Software Foundation
+    </wiki/Python_Software_Foundation>. Visitado em 11 de junho de 2008.
+18. Ir para cima ↑ <#cite_ref-18> A.M. Kuchling (1 de outubro de 2008).
+    What’s New in Python 2.6 <http://docs.python.org/whatsnew/2.6.html>
+    (em inglês </wiki/L%C3%ADngua_inglesa>) Python Software Foundation
+    </wiki/Python_Software_Foundation>. Visitado em 3 de outubro de 2008.
+19. Ir para cima ↑ <#cite_ref-19> Python 3.0 Release
+    <http://www.python.org/download/releases/3.0/> (em inglês
+    </wiki/L%C3%ADngua_inglesa>) Python Software Foundation
+    </wiki/Python_Software_Foundation>. Visitado em 3 de dezembro de 2008.
+20. Ir para cima ↑ <#cite_ref-20> Sarah Stokely (1 de fevereiro de
+    2008). Python 3.0 to be backwards incompatible
+    <http://www.itnews.com.au/News/69326,breaking-the-python-code.aspx>
+    (em inglês </wiki/L%C3%ADngua_inglesa>) iTnews. Visitado em 11 de
+    junho de 2008.
+21. Ir para cima ↑ <#cite_ref-21> Georg Brandl. Make print a function
+    <http://www.python.org/dev/peps/pep-3105/> (em inglês
+    </wiki/L%C3%ADngua_inglesa>). Visitado em 3 de outubro de 2008.
+22. Ir para cima ↑ <#cite_ref-Zen_22-0> PEP 20 - The Zen of Python
+    <http://www.python.org/dev/peps/pep-0020/> (em inglês
+    </wiki/L%C3%ADngua_inglesa>) Python - Núcleo de Desenvolvimento.
+    Visitado em 2010-01-15.
+23. Ir para cima ↑ <#cite_ref-23> Classes — Random Remarks
+    <http://docs.python.org/tutorial/classes.html#random-remarks> (em
+    inglês </wiki/L%C3%ADngua_inglesa>) Python Software Foundation
+    </wiki/Python_Software_Foundation> /Python Documentation/.
+24. Ir para cima ↑ <#cite_ref-24> Keywords
+    <http://docs.python.org/reference/lexical_analysis.html#keywords>
+    (em inglês </wiki/L%C3%ADngua_inglesa>) /Manual de Referência do
+    Python/ Python Software Foundation
+    </wiki/Python_Software_Foundation> (21 de fevereiro de 2008).
+    Visitado em 12 de setembro de 2008.
+25. Ir para cima ↑ <#cite_ref-25> What’s New In Python 3.0
+    <http://docs.python.org/release/3.0/whatsnew/3.0.html> (em inglês)
+    Python Software Foundation </wiki/Python_Software_Foundation>.
+    Visitado em 15 de janeiro de 2011.
+26. Ir para cima ↑ <#cite_ref-26> Michele Simionato. The Python 2.3
+    Method Resolution Order
+    <http://www.python.org/download/releases/2.3/mro/> (em inglês
+    </wiki/L%C3%ADngua_inglesa>) Python Software Foundation
+    </wiki/Python_Software_Foundation>. Visitado em 11 de junho de 2008.
+27. Ir para cima ↑ <#cite_ref-27> EAFP vs LBYL (was Re: A little
+    disappointed so far)
+    <http://mail.python.org/pipermail/python-list/2003-May/205182.html>
+    web.archive.org. Visitado em 6 de maio de 2012. Cópia arquivada em
+    29 de setembro de 2007
+    <http://web.archive.org/web/20070929122422/http://mail.python.org/pipermail/python-list/2003-May/205182.html>.
+28. Ir para cima ↑ <#cite_ref-28> Przemyslaw Piotrowski (Julho de 2006).
+    Build a Rapid Web Development Environment for Python Server Pages
+    and Oracle
+    <http://www.oracle.com/technology/pub/articles/piotrowski-pythoncore.html>
+    (em inglês </wiki/L%C3%ADngua_inglesa>) Oracle </wiki/Oracle>.
+    Visitado em 11 de junho de 2008.
+29. Ir para cima ↑ <#cite_ref-29> Phillip J. Eby (7 de dezembro de
+    2003). PEP 333 -- Python Web Server Gateway Interface v1.0
+    <http://www.python.org/dev/peps/pep-0333/> (em inglês
+    </wiki/L%C3%ADngua_inglesa>) Python Software Foundation
+    </wiki/Python_Software_Foundation>. Visitado em 11 de junho de 2008.
+30. Ir para cima ↑ <#cite_ref-30> Guido van Rossum (5 de julho de 2001).
+    PEP 7 -- Style Guide for C Code
+    <http://www.python.org/dev/peps/pep-0007/> (em inglês
+    </wiki/L%C3%ADngua_inglesa>) Python Software Foundation
+    </wiki/Python_Software_Foundation>. Visitado em 11 de junho de 2008.
+31. Ir para cima ↑ <#cite_ref-31> Python License
+    <http://www.python.org/psf/license/> (em inglês
+    </wiki/L%C3%ADngua_inglesa>) Python Software Foundation
+    </wiki/Python_Software_Foundation>. Visitado em 11 de junho de 2008.
+32. Ir para cima ↑ <#cite_ref-32> Quotes about Python
+    <http://python.org/about/quotes/> (em inglês
+    </wiki/L%C3%ADngua_inglesa>) Python Software Foundation
+    </wiki/Python_Software_Foundation>. Visitado em 11 de junho de 2008.
+33. Ir para cima ↑ <#cite_ref-33> Daniel G. Shafer (17 de janeiro de
+    2003). Python Streamlines Space Shuttle Mission Design
+    <http://www.python.org/about/success/usa/> (em inglês
+    </wiki/L%C3%ADngua_inglesa>) Python Software Foundation
+    </wiki/Python_Software_Foundation>. Visitado em 11 de junho de 2008.
+34. Ir para cima ↑ <#cite_ref-34> Darryl K. Taft (5 de março de 2005).
+    Python Slithers into Systems
+    <http://www.eweek.com/c/a/Application-Development/Python-Slithers-into-Systems/>
+    (em inglês </wiki/L%C3%ADngua_inglesa>) eWEEK. Visitado em 11 de
+    junho de 2008.
+35. Ir para cima ↑ <#cite_ref-35> Introduction to Maya Python API
+    <http://www.autodesk.com/us/maya/docs/Maya85/wwhelp/wwhimpl/common/html/wwhelp.htm?context=DeveloperResources&file=Introduction_to_Maya_Python_API.html>
+    (em inglês </wiki/L%C3%ADngua_inglesa>) /Documentação do Maya/
+    Autodesk </wiki/Autodesk>. Visitado em 18 de julho de 2008.
+36. Ir para cima ↑ <#cite_ref-36> Python Scripts
+    <http://wiki.blender.org/index.php/Extensions:Py/Scripts> (em inglês
+    </wiki/L%C3%ADngua_inglesa>) Blender </wiki/Blender>. Visitado em 18
+    de julho de 2008.
+37. Ir para cima ↑ <#cite_ref-37> James Henstridge (16 de maio de 2006).
+    GIMP Python Documentation
+    <http://www.gimp.org/docs/python/index.html> (em inglês
+    </wiki/L%C3%ADngua_inglesa>) /Documentação do GIMP/ GIMP
+    </wiki/GIMP>. Visitado em 18 de julho de 2008.
+38. Ir para cima ↑ <#cite_ref-38> Robin Rowe (1 de julho de 2002).
+    Industrial Light & Magic <http://www.linuxjournal.com/article/6011>
+    (em inglês </wiki/L%C3%ADngua_inglesa>) Linux Journal. Visitado em
+    18 de julho de 2008.
+
+
+    Bibliografia[editar
+    </w/index.php?title=Python&veaction=edit&vesection=26>| editar
+    código-fonte </w/index.php?title=Python&action=edit&section=26>]
+
+  * Pilgrim, Mark. /Dive into Python <http://diveintopython.net>/ (em
+    inglês </wiki/L%C3%ADngua_inglesa>). 2. ed. Nova Iorque: Apress,
+    2004. 413 pp. ISBN 978-1-5905-9356-1
+    </wiki/Especial:Fontes_de_livros/9781590593561>.
+  * Pilgrim, Mark. /Dive into Python 3
+    <http://www.diveinto.org/python3/>/ (em inglês
+    </wiki/L%C3%ADngua_inglesa>). 2. ed. Nova Iorque: Apress, 2009. 360
+    pp. ISBN 978-1-4302-2415-0
+    </wiki/Especial:Fontes_de_livros/9781430224150>.
+  * Menezes, Nilo Ney Coutinho. /Introdução à Programação com Python/.
+    São Paulo: Novatec, 2010. 224 pp. ISBN 978-85-7522-250-8
+    </wiki/Especial:Fontes_de_livros/9788575222508>. /(Ideal para quem
+    nunca teve contato com programação)/
+  * Downey, Allen B.. /Think Python
+    <http://shop.oreilly.com/product/0636920025696.do>/ (em inglês
+    </wiki/L%C3%ADngua_inglesa>). Sebastopol (Califórnia): O'Reilly,
+    2012. 300 pp. ISBN 978-1-4493-3072-9
+    </wiki/Especial:Fontes_de_livros/9781449330729>.
+  * Lutz, Mark. /Learning Python
+    <http://shop.oreilly.com/product/0636920028154.do>/ (em inglês
+    </wiki/L%C3%ADngua_inglesa>). 5. ed. Sebastopol (Califórnia):
+    O'Reilly, 2013. 1600 pp. ISBN 978-1-4493-5573-9
+    </wiki/Especial:Fontes_de_livros/9781449355739>.
+  * Lutz, Mark. /Programming Python
+    <http://shop.oreilly.com/product/9780596158118.do>/ (em inglês
+    </wiki/L%C3%ADngua_inglesa>). 4. ed. Sebastopol (Califórnia):
+    O'Reilly, 2010. 1632 pp. ISBN 978-0-596-15810-1
+    </wiki/Especial:Fontes_de_livros/9780596158101>.
+  * David Beazley e Brian K. Jones. /Python Cookbook
+    <http://shop.oreilly.com/product/0636920027072.do>/ (em inglês
+    </wiki/L%C3%ADngua_inglesa>). 3. ed. Sebastopol (Califórnia):
+    O'Reilly, 2013. 706 pp. ISBN 978-1-4493-4037-7
+    </wiki/Especial:Fontes_de_livros/9781449340377>.
+
+
+    Ligações externas[editar
+    </w/index.php?title=Python&veaction=edit&vesection=27>| editar
+    código-fonte </w/index.php?title=Python&action=edit&section=27>]
+
+Outros projetos Wikimedia </wiki/Wikimedia> também contêm material sobre
+este tema:
+Wikcionário <//pt.wiktionary.org/wiki/Special:Search/Python>
+*Definições* <//pt.wiktionary.org/wiki/Special:Search/Python> no
+Wikcionário <//pt.wiktionary.org/wiki/P%C3%A1gina_principal>
+Wikilivros <//pt.wikibooks.org/wiki/Special:Search/Python> 	*Livros e
+manuais* <//pt.wikibooks.org/wiki/Special:Search/Python> no Wikilivros
+<//pt.wikibooks.org/wiki/P%C3%A1gina_principal>
+Wikiquote <//pt.wikiquote.org/wiki/Special:Search/Python> 	*Citações*
+<//pt.wikiquote.org/wiki/Special:Search/Python> no Wikiquote
+<//pt.wikiquote.org/wiki/P%C3%A1gina_principal>
+Commons
+<//commons.wikimedia.org/wiki/Special:Search/Category:Python_(programming_language)>
+	*Categoria*
+<//commons.wikimedia.org/wiki/Special:Search/Category:Python_(programming_language)>
+no Commons <//commons.wikimedia.org/wiki/P%C3%A1gina_principal>
+
+  * Commons
+    <//commons.wikimedia.org/wiki/Special:Search/Category:Python_(programming_language)>
+  * Wikiquote <//pt.wikiquote.org/wiki/Special:Search/Python>
+  * Wikilivros <//pt.wikibooks.org/wiki/Special:Search/Python>
+  * Wikcionário <//pt.wiktionary.org/wiki/Special:Search/Python>
+
+  * Página oficial <http://www.python.org/> (em inglês
+    </wiki/L%C3%ADngua_inglesa>)
+  * Wiki da comunidade brasileira de usuários <http://www.python.org.br/>
+  * Site da comunidade portuguesa de usuários <http://python.pt/>
+  * Python <http://www.dmoz.org/Computers/Programming/Languages/Python/>
+    no Open Directory Project </wiki/Open_Directory_Project>
+
+[Expandir <#>]
+v </wiki/Predefini%C3%A7%C3%A3o:Linguagens_de_programa%C3%A7%C3%A3o> • e
+<//pt.wikipedia.org/w/index.php?title=Predefini%C3%A7%C3%A3o:Linguagens_de_programa%C3%A7%C3%A3o&action=edit>
+Principais linguagens de programação
+</wiki/Linguagem_de_programa%C3%A7%C3%A3o>
+Linguagens históricas (2GL
+</wiki/Linguagem_de_programa%C3%A7%C3%A3o_de_segunda_gera%C3%A7%C3%A3o>,
+3GL
+</wiki/Linguagem_de_programa%C3%A7%C3%A3o_de_terceira_gera%C3%A7%C3%A3o>)
+ALGOL </wiki/ALGOL> • APL </wiki/APL> • Assembly </wiki/Assembly> • AWK
+</wiki/AWK> • B </wiki/B_(linguagem_de_programa%C3%A7%C3%A3o)> • BASIC
+</wiki/BASIC> • BCPL </wiki/BCPL> • COBOL </wiki/COBOL> • CPL
+</wiki/Linguagem_de_Programa%C3%A7%C3%A3o_Combinada> • Forth
+</wiki/Forth> • Fortran </wiki/Fortran> • Lisp </wiki/Lisp> • Logo
+</wiki/Logo> • Simula </wiki/Simula> • Smalltalk </wiki/Smalltalk>
+Linguagens acadêmicas </wiki/Academia> 	Gödel
+</wiki/G%C3%B6del_(linguagem_de_programa%C3%A7%C3%A3o)> • Haskell
+</wiki/Haskell_(linguagem_de_programa%C3%A7%C3%A3o)> • Icon
+</wiki/Icon_(linguagem_de_programa%C3%A7%C3%A3o)> • Lisp </wiki/Lisp> •
+Logo </wiki/Logo> • Lua </wiki/Lua_(linguagem_de_programa%C3%A7%C3%A3o)>
+• Pascal </wiki/Pascal_(linguagem_de_programa%C3%A7%C3%A3o)> • Prolog
+</wiki/Prolog> • *Python* • Scala
+</wiki/Scala_(linguagem_de_programa%C3%A7%C3%A3o)> • Scheme
+</wiki/Scheme> • Scratch </wiki/Scratch> • Simula </wiki/Simula> •
+Smalltalk </wiki/Smalltalk> • Tcl </wiki/Tcl>
+Linguagens proprietárias </wiki/Software_propriet%C3%A1rio> 	ABAP
+</wiki/ABAP> • ActionScript </wiki/ActionScript> • AWK </wiki/AWK> •
+COBOL </wiki/COBOL> • Delphi </wiki/Embarcadero_Delphi> • MATLAB
+</wiki/MATLAB> • PL/SQL </wiki/PL/SQL> • RPG
+</wiki/RPG_(linguagem_de_programa%C3%A7%C3%A3o)> • Scratch
+</wiki/Scratch> • Transact-SQL </wiki/Transact-SQL> • Visual Basic
+</wiki/Visual_Basic>
+Linguagens não-proprietárias </wiki/C%C3%B3digo_aberto> 	Ada
+</wiki/Ada_(linguagem_de_programa%C3%A7%C3%A3o)> • Assembly
+</wiki/Assembly> • C </wiki/C_(linguagem_de_programa%C3%A7%C3%A3o)> •
+C++ </wiki/C%2B%2B> • C♯ </wiki/C%E2%99%AF> • Icon
+</wiki/Icon_(linguagem_de_programa%C3%A7%C3%A3o)> • Lisp </wiki/Lisp> •
+Logo </wiki/Logo> • Object Pascal </wiki/Object_Pascal> • Objective-C
+</wiki/Objective-C> • Pascal
+</wiki/Pascal_(linguagem_de_programa%C3%A7%C3%A3o)> • Scheme
+</wiki/Scheme> • Simula </wiki/Simula> • Smalltalk </wiki/Smalltalk>
+Linguagens livres </wiki/Software_livre> 	Boo </wiki/Boo> • Clojure
+</wiki/Clojure> • CoffeeScript </wiki/CoffeeScript> • D
+</wiki/D_(linguagem_de_programa%C3%A7%C3%A3o)> • Dart
+</wiki/Dart_(linguagem_de_programa%C3%A7%C3%A3o)> • Erlang
+</wiki/Erlang_(linguagem_de_programa%C3%A7%C3%A3o)> • Go
+</wiki/Go_(linguagem_de_programa%C3%A7%C3%A3o)> • Haskell
+</wiki/Haskell_(linguagem_de_programa%C3%A7%C3%A3o)> • Java
+</wiki/Java_(linguagem_de_programa%C3%A7%C3%A3o)> • JavaScript
+</wiki/JavaScript> • Lua
+</wiki/Lua_(linguagem_de_programa%C3%A7%C3%A3o)> • Perl </wiki/Perl> •
+PHP </wiki/PHP> • *Python* • Ruby
+</wiki/Ruby_(linguagem_de_programa%C3%A7%C3%A3o)> • Scala
+</wiki/Scala_(linguagem_de_programa%C3%A7%C3%A3o)> • Tcl </wiki/Tcl>
+Linguagens esotéricas
+</wiki/Linguagem_de_programa%C3%A7%C3%A3o_esot%C3%A9rica> 	Befunge
+</wiki/Befunge> • brainfuck </wiki/Brainfuck> • FALSE </wiki/FALSE> •
+INTERCAL </wiki/INTERCAL> • LOLCODE </wiki/LOLCODE> • L00P </wiki/L00P>
+• Malbolge </wiki/Malbolge> • PATH
+</wiki/PATH_(linguagem_de_programa%C3%A7%C3%A3o_esot%C3%A9rica)> •
+Pbrain </wiki/Pbrain> • Piet </wiki/Piet> • SNUSP </wiki/SNUSP> •
+Unlambda </wiki/Unlambda> • Whitespace </wiki/Whitespace>
+Lista de linguagens de programação
+</wiki/Anexo:Lista_de_linguagens_de_programa%C3%A7%C3%A3o> • Comparação
+entre linguagens de programação
+</wiki/Anexo:Compara%C3%A7%C3%A3o_entre_linguagens_de_programa%C3%A7%C3%A3o>
+• Programa Olá Mundo </wiki/Programa_Ol%C3%A1_Mundo> • Programa Olá
+Mundo em linguagens esotéricas
+</wiki/Programa_Ol%C3%A1_Mundo_em_linguagens_de_programa%C3%A7%C3%A3o_esot%C3%A9ricas>
+
+
+Obtida de "http://pt.wikipedia.org/w/index.php?title=Python&oldid=40719582"
+Categorias </wiki/Especial:Categorias>:
+
+  * Linguagens de programação orientadas a objetos
+    </wiki/Categoria:Linguagens_de_programa%C3%A7%C3%A3o_orientadas_a_objetos>
+  * Linguagens de programação baseadas em classes
+    </wiki/Categoria:Linguagens_de_programa%C3%A7%C3%A3o_baseadas_em_classes>
+  * Linguagens de script </wiki/Categoria:Linguagens_de_script>
+  * Linguagens interpretadas </wiki/Categoria:Linguagens_interpretadas>
+  * Compiladores e interpretadores livres
+    </wiki/Categoria:Compiladores_e_interpretadores_livres>
+  * Python </wiki/Categoria:Python>
+  * Software livre </wiki/Categoria:Software_livre>
+  * Linguagens de programação criadas em 1991
+    </wiki/Categoria:Linguagens_de_programa%C3%A7%C3%A3o_criadas_em_1991>
+
+Categorias ocultas:
+
+  * !Artigos bons na Wikipédia em alemão
+    </wiki/Categoria:!Artigos_bons_na_Wikip%C3%A9dia_em_alem%C3%A3o>
+  * !Artigos bons na Wikipédia em inglês
+    </wiki/Categoria:!Artigos_bons_na_Wikip%C3%A9dia_em_ingl%C3%AAs>
+  * !Artigos destacados na Wikipédia em russo
+    </wiki/Categoria:!Artigos_destacados_na_Wikip%C3%A9dia_em_russo>
+
+
+    Menu de navegação
+
+
+      Ferramentas pessoais
+
+  * Criar uma conta
+    </w/index.php?title=Especial:Entrar&returnto=Python&type=signup>
+  * Entrar </w/index.php?title=Especial:Entrar&returnto=Python>
+
+
+      Domínios
+
+  * Artigo </wiki/Python>
+  * Discussão </wiki/Discuss%C3%A3o:Python>
+
+
+      Variantes<#>
+
+
+      Vistas
+
+  * Ler </wiki/Python>
+  * Editar </w/index.php?title=Python&veaction=edit>
+  * Editar código-fonte </w/index.php?title=Python&action=edit>
+  * Ver histórico </w/index.php?title=Python&action=history>
+
+
+      Mais<#>
+
+
+      Busca
+
+</wiki/Wikip%C3%A9dia:P%C3%A1gina_principal>
+
+
+      Navegação
+
+  * Página principal </wiki/Wikip%C3%A9dia:P%C3%A1gina_principal>
+  * Conteúdo destacado </wiki/Portal:Conte%C3%BAdo_destacado>
+  * Eventos atuais </wiki/Portal:Eventos_atuais>
+  * Esplanada </wiki/Wikip%C3%A9dia:Esplanada>
+  * Página aleatória </wiki/Especial:Aleat%C3%B3ria>
+  * Portais </wiki/Portal:%C3%8Dndice>
+  * Informar um erro <#>
+
+
+      Colaboração
+
+  * Boas-vindas </wiki/Wikip%C3%A9dia:Boas-vindas>
+  * Ajuda </wiki/Ajuda:P%C3%A1gina_principal>
+  * Página de testes </wiki/Wikip%C3%A9dia:P%C3%A1gina_de_testes>
+  * Portal comunitário </wiki/Wikip%C3%A9dia:Portal_comunit%C3%A1rio>
+  * Mudanças recentes </wiki/Especial:Mudan%C3%A7as_recentes>
+  * Manutenção </wiki/Wikip%C3%A9dia:Manuten%C3%A7%C3%A3o>
+  * Criar página
+    </wiki/Ajuda:Guia_de_edi%C3%A7%C3%A3o/Como_come%C3%A7ar_uma_p%C3%A1gina>
+  * Páginas novas </wiki/Especial:P%C3%A1ginas_novas>
+  * Contato </wiki/Wikip%C3%A9dia:Contato>
+  * Donativos
+    <//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=20120521SB001&uselang=pt>
+
+
+      Imprimir/exportar
+
+  * Criar um livro
+    </w/index.php?title=Especial:Livro&bookcmd=book_creator&referer=Python>
+  * Descarregar como PDF
+    </w/index.php?title=Especial:Livro&bookcmd=render_article&arttitle=Python&oldid=40719582&writer=rdf2latex>
+  * Versão para impressão </w/index.php?title=Python&printable=yes>
+
+
+      Ferramentas
+
+  * Páginas afluentes </wiki/Especial:P%C3%A1ginas_afluentes/Python>
+  * Alterações relacionadas
+    </wiki/Especial:Altera%C3%A7%C3%B5es_relacionadas/Python>
+  * Carregar ficheiro </wiki/Wikipedia:Carregar_ficheiro>
+  * Páginas especiais </wiki/Especial:P%C3%A1ginas_especiais>
+  * Ligação permanente </w/index.php?title=Python&oldid=40719582>
+  * Informações da página </w/index.php?title=Python&action=info>
+  * Item no Wikidata <//www.wikidata.org/wiki/Q28865>
+  * Citar esta página
+    </w/index.php?title=Especial:Citar&page=Python&id=40719582>
+
+
+      Correlatos
+
+  * Commons
+    <//commons.wikimedia.org/wiki/Special:Search/Category:Python_(programming_language)>
+  * Wikiquote <//pt.wikiquote.org/wiki/Special:Search/Python>
+  * Wikilivros <//pt.wikibooks.org/wiki/Special:Search/Python>
+  * Wikcionário <//pt.wiktionary.org/wiki/Special:Search/Python>
+
+
+      Noutros idiomas
+
+  * Afrikaans <//af.wikipedia.org/wiki/Python_(programmeertaal)>
+  * Alemannisch <//als.wikipedia.org/wiki/Python_(Programmiersprache)>
+  * Aragonés <//an.wikipedia.org/wiki/Python>
+  * العربية <//ar.wikipedia.org/wiki/%D8%A8%D8%A7%D9%8A%D8%AB%D9%88%D9%86>
+  * Azərbaycanca
+    <//az.wikipedia.org/wiki/Python_(proqramla%C5%9Fd%C4%B1rma_dili)>
+  * Беларуская
+    <//be.wikipedia.org/wiki/Python,_%D0%BC%D0%BE%D0%B2%D0%B0_%D0%BF%D1%80%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%B0%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F>
+  * Български <//bg.wikipedia.org/wiki/Python>
+  * বাংলা
+    <//bn.wikipedia.org/wiki/%E0%A6%AA%E0%A6%BE%E0%A6%87%E0%A6%A5%E0%A6%A8_(%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%82_%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE)>
+  * Bosanski <//bs.wikipedia.org/wiki/Python_(programski_jezik)>
+  * ᨅᨔ ᨕᨘᨁᨗ <//bug.wikipedia.org/wiki/Python>
+  * Català <//ca.wikipedia.org/wiki/Python>
+  * Cebuano <//ceb.wikipedia.org/wiki/Python_(programming_language)>
+  * Čeština <//cs.wikipedia.org/wiki/Python>
+  * Dansk <//da.wikipedia.org/wiki/Python_(programmeringssprog)>
+  * Deutsch <//de.wikipedia.org/wiki/Python_(Programmiersprache)>
+  * Ελληνικά <//el.wikipedia.org/wiki/Python>
+  * English <//en.wikipedia.org/wiki/Python_(programming_language)>
+  * Esperanto <//eo.wikipedia.org/wiki/Python_(programlingvo)>
+  * Español <//es.wikipedia.org/wiki/Python>
+  * Eesti <//et.wikipedia.org/wiki/Python_(programmeerimiskeel)>
+  * Euskara <//eu.wikipedia.org/wiki/Python_(informatika)>
+  * فارسی
+    <//fa.wikipedia.org/wiki/%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86_(%D8%B2%D8%A8%D8%A7%D9%86_%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3%DB%8C)>
+  * Suomi <//fi.wikipedia.org/wiki/Python_(ohjelmointikieli)>
+  * Français <//fr.wikipedia.org/wiki/Python_(langage)>
+  * Galego <//gl.wikipedia.org/wiki/Python>
+  * ગુજરાતી
+    <//gu.wikipedia.org/wiki/%E0%AA%AA%E0%AA%BE%E0%AA%AF%E0%AA%A5%E0%AB%8B%E0%AA%A8(%E0%AA%AA%E0%AB%8D%E0%AA%B0%E0%AB%8B%E0%AA%97%E0%AB%8D%E0%AA%B0%E0%AA%BE%E0%AA%AE%E0%AA%BF%E0%AA%82%E0%AA%97_%E0%AA%AD%E0%AA%BE%E0%AA%B7%E0%AA%BE)>
+  * עברית <//he.wikipedia.org/wiki/%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F>
+  * हिन्दी
+    <//hi.wikipedia.org/wiki/%E0%A4%AA%E0%A4%BE%E0%A4%87%E0%A4%A5%E0%A4%A8_(%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%AE%E0%A4%A8_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE)>
+  * Hrvatski <//hr.wikipedia.org/wiki/Python_(programski_jezik)>
+  * Magyar <//hu.wikipedia.org/wiki/Python_(programoz%C3%A1si_nyelv)>
+  * Հայերեն <//hy.wikipedia.org/wiki/Python>
+  * Interlingua <//ia.wikipedia.org/wiki/Python_(linguage_de_programmation)>
+  * Bahasa Indonesia <//id.wikipedia.org/wiki/Python_(bahasa_pemrograman)>
+  * Íslenska <//is.wikipedia.org/wiki/Python_(forritunarm%C3%A1l)>
+  * Italiano <//it.wikipedia.org/wiki/Python>
+  * 日本語 <//ja.wikipedia.org/wiki/Python>
+  * Lojban <//jbo.wikipedia.org/wiki/paiton>
+  * ქართული
+    <//ka.wikipedia.org/wiki/%E1%83%9E%E1%83%98%E1%83%97%E1%83%9D%E1%83%9C%E1%83%98_(%E1%83%9E%E1%83%A0%E1%83%9D%E1%83%92%E1%83%A0%E1%83%90%E1%83%9B%E1%83%98%E1%83%A0%E1%83%94%E1%83%91%E1%83%98%E1%83%A1_%E1%83%94%E1%83%9C%E1%83%90)>
+  * Қазақша <//kk.wikipedia.org/wiki/Python>
+  * ភាសាខ្មែរ
+    <//km.wikipedia.org/wiki/%E1%9E%95%E1%9E%B6%E1%9E%99%E1%9E%90%E1%9E%BB%E1%9E%93>
+  * 한국어 <//ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%B4%EC%8D%AC>
+  * Latina <//la.wikipedia.org/wiki/Python>
+  * Lietuvių <//lt.wikipedia.org/wiki/Python>
+  * Latviešu <//lv.wikipedia.org/wiki/Python>
+  * Македонски
+    <//mk.wikipedia.org/wiki/%D0%9F%D0%B0%D1%98%D1%82%D0%BE%D0%BD_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA)>
+  * മലയാളം
+    <//ml.wikipedia.org/wiki/%E0%B4%AA%E0%B5%88%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B5%BA_(%E0%B4%AA%E0%B5%8D%E0%B4%B0%E0%B5%8B%E0%B4%97%E0%B5%8D%E0%B4%B0%E0%B4%BE%E0%B4%AE%E0%B4%BF%E0%B4%99%E0%B5%8D%E0%B4%99%E0%B5%8D_%E0%B4%AD%E0%B4%BE%E0%B4%B7)>
+  * Монгол <//mn.wikipedia.org/wiki/Python>
+  * मराठी
+    <//mr.wikipedia.org/wiki/%E0%A4%AA%E0%A4%BE%E0%A4%AF%E0%A4%A5%E0%A5%89%E0%A4%A8>
+  * Bahasa Melayu <//ms.wikipedia.org/wiki/Python>
+  * မြန်မာဘာသာ <//my.wikipedia.org/wiki/Python_(programming_language)>
+  * Plattdüütsch <//nds.wikipedia.org/wiki/Python_(Programmeerspraak)>
+  * नेपाली
+    <//ne.wikipedia.org/wiki/%E0%A4%AA%E0%A4%BE%E0%A4%87%E0%A4%A5%E0%A4%A8_%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%AE%E0%A4%BF%E0%A4%99%E0%A5%8D%E0%A4%97_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE>
+  * Nederlands <//nl.wikipedia.org/wiki/Python_(programmeertaal)>
+  * Norsk bokmål <//no.wikipedia.org/wiki/Python>
+  * ଓଡ଼ିଆ
+    <//or.wikipedia.org/wiki/%E0%AC%AA%E0%AC%BE%E0%AC%87%E0%AC%A5%E0%AC%A8%E0%AD%8D_(%E0%AC%AA%E0%AD%8D%E0%AC%B0%E0%AD%8B%E0%AC%97%E0%AD%8D%E0%AC%B0%E0%AC%BE%E0%AC%AE%E0%AC%BF%E0%AC%82_%E0%AC%AD%E0%AC%BE%E0%AC%B7%E0%AC%BE)>
+  * Polski <//pl.wikipedia.org/wiki/Python>
+  * Română <//ro.wikipedia.org/wiki/Python>
+  * Русский <//ru.wikipedia.org/wiki/Python>
+  * Srpskohrvatski / српскохрватски
+    <//sh.wikipedia.org/wiki/Python_programski_jezik>
+  * සිංහල
+    <//si.wikipedia.org/wiki/%E0%B6%B4%E0%B6%BA%E0%B7%92%E0%B6%AD%E0%B6%B1%E0%B7%8A>
+  * Simple English
+    <//simple.wikipedia.org/wiki/Python_(programming_language)>
+  * Slovenčina <//sk.wikipedia.org/wiki/Python_(programovac%C3%AD_jazyk)>
+  * Slovenščina <//sl.wikipedia.org/wiki/Python_(programski_jezik)>
+  * Shqip <//sq.wikipedia.org/wiki/Python>
+  * Српски / srpski
+    <//sr.wikipedia.org/wiki/%D0%9F%D0%B0%D1%98%D1%82%D0%BE%D0%BD_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D1%81%D0%BA%D0%B8_%D1%98%D0%B5%D0%B7%D0%B8%D0%BA)>
+  * Svenska <//sv.wikipedia.org/wiki/Python_(programspr%C3%A5k)>
+  * தமிழ்
+    <//ta.wikipedia.org/wiki/%E0%AE%AA%E0%AF%88%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BE%E0%AE%A9%E0%AF%8D>
+  * తెలుగు
+    <//te.wikipedia.org/wiki/%E0%B0%AA%E0%B1%88%E0%B0%A5%E0%B0%BE%E0%B0%A8%E0%B1%8D_(%E0%B0%95%E0%B0%82%E0%B0%AA%E0%B1%8D%E0%B0%AF%E0%B1%82%E0%B0%9F%E0%B0%B0%E0%B1%8D_%E0%B0%AD%E0%B0%BE%E0%B0%B7)>
+  * Тоҷикӣ <//tg.wikipedia.org/wiki/Python>
+  * ไทย
+    <//th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B9%84%E0%B8%9E%E0%B8%97%E0%B8%AD%E0%B8%99>
+  * Tagalog <//tl.wikipedia.org/wiki/Python_(wikang_pamprograma)>
+  * Türkçe <//tr.wikipedia.org/wiki/Python_(programlama_dili)>
+  * Українська <//uk.wikipedia.org/wiki/Python>
+  * Tiếng Việt
+    <//vi.wikipedia.org/wiki/Python_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)>
+  * 中文 <//zh.wikipedia.org/wiki/Python>
+
+Editar ligações <//www.wikidata.org/wiki/Q28865#sitelinks-wikipedia>
+
+  * Esta página foi modificada pela última vez à(s) 16h47min de 27 de
+    novembro de 2014.
+  * Este texto é disponibilizado nos termos da licença Creative Commons
+    - Atribuição - Compartilha Igual 3.0 Não Adaptada (CC BY-SA 3.0)
+    <https://creativecommons.org/licenses/by-sa/3.0/deed.pt>; pode estar
+    sujeito a condições adicionais. Para mais detalhes, consulte as
+    Condições de Uso
+    <https://wikimediafoundation.org/wiki/Condições_de_Uso>.
+
+  * Política de privacidade
+    </wiki/Wikip%C3%A9dia:Pol%C3%ADtica_de_privacidade>
+  * Sobre a Wikipédia </wiki/Wikip%C3%A9dia:Sobre>
+  * Avisos gerais </wiki/Wikip%C3%A9dia:Aviso_geral>
+  * Programadores
+    <https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute>
+  * Versão móvel
+    <//pt.m.wikipedia.org/w/index.php?title=Python&mobileaction=toggle_view_mobile>
+
+  * Wikimedia Foundation <//wikimediafoundation.org/>
+  * Powered by MediaWiki <//www.mediawiki.org/>
+

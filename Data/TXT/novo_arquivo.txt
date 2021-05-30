@@ -1,0 +1,5 @@
+Peso		72
+Altura		183
+Idade		44
+Genero		Masculino
+
