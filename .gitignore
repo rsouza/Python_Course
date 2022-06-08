@@ -4,3 +4,7 @@ Exercises/draft/.ipynb_checkpoints/
 Notebooks/.ipynb_checkpoints/
 Notebooks/draft/.ipynb_checkpoints/
 
+Notebooks/twitter_tokens.txt
+Notebooks/mapbox_token.txt
+Data/Texts/outputs/doc_cluster.pkl
+Data/df_twitter.pkl
