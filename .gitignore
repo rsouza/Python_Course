@@ -8,3 +8,4 @@ Notebooks/twitter_tokens.txt
 Notebooks/mapbox_token.txt
 Data/Texts/outputs/doc_cluster.pkl
 Data/df_twitter.pkl
+Data/Geo/KDZ_Stadtregionen_GEM_20160101.geojson
