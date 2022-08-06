@@ -25,6 +25,7 @@
 + [Graph Analysis](https://www.analyticsvidhya.com/blog/2018/04/introduction-to-graph-theory-network-analysis-python-codes/): [NetworkX](https://networkx.github.io/), [ete3](http://etetoolkit.org/)  
 + [Webscraping](https://opensource.com/article/20/5/web-scraping-python): [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), [MechanicalSoup](https://mechanicalsoup.readthedocs.io/en/stable/), [Selenium](https://selenium-python.readthedocs.io/)    
 + [Temporal Series](https://www.machinelearningplus.com/time-series/time-series-analysis-python/): [Pandas](https://pandas.pydata.org/), [Statsmodels](https://www.statsmodels.org/stable/index.html)      
++ [Dashboarding Tools](https://pyviz.org/dashboarding/): [Dash Plotly](https://dash.plotly.com/introduction), [Streamlit](https://streamlit.io/gallery)  
 
 ### References
 
@@ -33,6 +34,7 @@
 [Programming Languages paradigms](https://en.m.wikipedia.org/wiki/Programming_paradigm)  
 [What (not) to do to learn programming?](https://medium.freecodecamp.org/learn-to-code-the-hard-way-65dece5b0005)  
 ["Hello World" in 50 different programming languages](https://medium.com/javarevisited/70-years-of-hello-world-with-50-programming-languages-2400de893a97)
+[Python and Data Analysis from Pandas Creator](https://wesmckinney.com/book/)  
 
 ### Python Resources
 
@@ -56,4 +58,5 @@ Python IDEs [Anaconda](https://www.anaconda.com/products/individual), [PyCharm](
 [URI Online Judge](https://www.urionlinejudge.com.br/judge/en/login)  
 [Rosetta Code](http://www.rosettacode.org)
 [Exercism](https://exercism.io)
+[Python Brasil (Exercises in Portuguese)](https://wiki.python.org.br/ListaDeExercicios)  
 
