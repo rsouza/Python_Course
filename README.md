@@ -57,6 +57,6 @@ Python IDEs [Anaconda](https://www.anaconda.com/products/individual), [PyCharm](
 [Brilliant](http://brilliant.org/)  
 [URI Online Judge](https://www.urionlinejudge.com.br/judge/en/login)  
 [Rosetta Code](http://www.rosettacode.org)
-[Exercism](https://exercism.io)
+[Exercism](https://exercism.io)  
 [Python Brasil (Exercises in Portuguese)](https://wiki.python.org.br/ListaDeExercicios)  
 
