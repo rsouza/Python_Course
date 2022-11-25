@@ -49,7 +49,7 @@ Agnes,F,1046
 Josephine,F,1001
 Fannie,F,991
 Lucy,F,964
-Blanche,F,943
+Blanche,F,942
 Mamie,F,917
 Dora,F,898
 Hazel,F,898
@@ -1473,7 +1473,7 @@ Zeta,F,5
 Zilphia,F,5
 Zonie,F,5
 John,M,9248
-William,M,8704
+William,M,8705
 James,M,5562
 George,M,4912
 Charles,M,4591
@@ -1607,7 +1607,7 @@ Max,M,118
 Otis,M,116
 Phillip,M,116
 Mark,M,115
-Matthew,M,115
+Matthew,M,114
 Virgil,M,112
 Wallace,M,111
 Alonzo,M,110
@@ -1624,8 +1624,8 @@ Felix,M,101
 Lonnie,M,101
 Manuel,M,101
 Emmett,M,100
-Jose,M,100
 Maurice,M,100
+Jose,M,99
 Elbert,M,98
 Owen,M,98
 Nicholas,M,97

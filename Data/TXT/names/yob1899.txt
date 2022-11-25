@@ -1843,7 +1843,7 @@ Zollie,F,5
 John,M,6990
 William,M,6086
 James,M,4598
-George,M,4018
+George,M,4019
 Charles,M,3147
 Joseph,M,2679
 Robert,M,2609
@@ -1865,7 +1865,7 @@ Raymond,M,869
 Earl,M,821
 Joe,M,780
 Carl,M,774
-Louis,M,771
+Louis,M,770
 Ernest,M,744
 Richard,M,744
 Ralph,M,742
@@ -1899,7 +1899,7 @@ Russell,M,338
 Benjamin,M,335
 Clyde,M,330
 Edwin,M,329
-Leonard,M,322
+Leonard,M,321
 Ray,M,315
 Clifford,M,297
 Claude,M,293
@@ -2689,7 +2689,6 @@ Seymour,M,8
 Spurgeon,M,8
 Stephan,M,8
 Stonewall,M,8
-Terry,M,8
 Unknown,M,8
 Virgle,M,8
 Webb,M,8
@@ -2763,6 +2762,7 @@ Oris,M,7
 Orvil,M,7
 Ossie,M,7
 Robt,M,7
+Terry,M,7
 Toney,M,7
 Vaughn,M,7
 Vic,M,7

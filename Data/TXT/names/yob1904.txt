@@ -1,5 +1,5 @@
 Mary,F,14962
-Helen,F,6489
+Helen,F,6488
 Anna,F,5330
 Margaret,F,5302
 Ruth,F,4900
@@ -2166,7 +2166,7 @@ Ysabel,F,5
 Zoa,F,5
 John,M,8108
 William,M,6416
-James,M,5856
+James,M,5855
 George,M,4219
 Robert,M,3414
 Charles,M,3407
@@ -3029,7 +3029,6 @@ Pierre,M,9
 Ransom,M,9
 Roderick,M,9
 Rowland,M,9
-Santos,M,9
 Sebastian,M,9
 Sid,M,9
 Sumner,M,9
@@ -3115,6 +3114,7 @@ Ricardo,M,8
 Roberto,M,8
 Rolla,M,8
 Royce,M,8
+Santos,M,8
 Severo,M,8
 Shelley,M,8
 Shelly,M,8

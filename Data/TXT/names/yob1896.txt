@@ -148,7 +148,7 @@ Amy,F,320
 Nina,F,320
 Flossie,F,315
 Rosie,F,314
-Maria,F,313
+Maria,F,312
 Doris,F,308
 Genevieve,F,305
 Kate,F,303
@@ -1881,8 +1881,8 @@ Floyd,M,396
 Lewis,M,386
 Frederick,M,381
 Clyde,M,372
-Leonard,M,352
 Edwin,M,351
+Leonard,M,351
 Martin,M,343
 Tom,M,339
 Chester,M,329
@@ -1971,10 +1971,10 @@ Emmett,M,113
 Glen,M,113
 Vincent,M,112
 Perry,M,111
+Sylvester,M,111
 Amos,M,110
 Edmund,M,110
 Nathan,M,110
-Sylvester,M,110
 Abraham,M,109
 Rudolph,M,108
 Curtis,M,107

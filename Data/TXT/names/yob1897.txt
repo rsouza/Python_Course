@@ -1,7 +1,7 @@
 Mary,F,13412
 Anna,F,5429
-Helen,F,4518
-Margaret,F,4145
+Helen,F,4519
+Margaret,F,4146
 Ruth,F,3878
 Elizabeth,F,3442
 Florence,F,3369
@@ -38,7 +38,7 @@ Nellie,F,1693
 Irene,F,1587
 Laura,F,1585
 Agnes,F,1579
-Louise,F,1562
+Louise,F,1563
 Catherine,F,1511
 Dorothy,F,1472
 Lillie,F,1401
@@ -170,7 +170,7 @@ Allie,F,265
 Ina,F,262
 Celia,F,260
 Jean,F,258
-Kathleen,F,251
+Kathleen,F,250
 Janie,F,247
 Eliza,F,244
 Naomi,F,241

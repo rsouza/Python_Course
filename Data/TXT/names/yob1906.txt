@@ -23,7 +23,7 @@ Gertrude,F,2375
 Hazel,F,2315
 Louise,F,2307
 Bertha,F,2302
-Catherine,F,2229
+Catherine,F,2230
 Clara,F,2228
 Emma,F,2224
 Martha,F,2199
@@ -259,8 +259,8 @@ Eileen,F,161
 Tillie,F,161
 Leila,F,160
 Lorraine,F,159
-Patricia,F,159
 Hester,F,158
+Patricia,F,158
 Lessie,F,155
 Maudie,F,155
 Adelaide,F,154
@@ -437,8 +437,8 @@ Una,F,63
 Ava,F,62
 Estell,F,62
 Mazie,F,62
-Rosemary,F,62
 Myrtie,F,61
+Rosemary,F,61
 Arline,F,60
 Idella,F,60
 Allene,F,59
@@ -2227,7 +2227,7 @@ Charles,M,3607
 Joseph,M,3527
 Frank,M,2798
 Edward,M,2398
-Thomas,M,2177
+Thomas,M,2176
 Henry,M,2112
 Walter,M,1934
 Willie,M,1756
@@ -2261,7 +2261,7 @@ Alfred,M,632
 Andrew,M,611
 Elmer,M,598
 Sam,M,552
-Anthony,M,541
+Anthony,M,542
 Kenneth,M,534
 Michael,M,531
 Leo,M,508
@@ -2276,7 +2276,7 @@ Clyde,M,457
 Stanley,M,455
 Jesse,M,436
 Lee,M,436
-Peter,M,428
+Peter,M,427
 Ray,M,421
 Chester,M,420
 Leroy,M,420
@@ -2321,8 +2321,8 @@ Patrick,M,213
 Sidney,M,209
 Stephen,M,207
 Virgil,M,207
-Manuel,M,205
 Alexander,M,204
+Manuel,M,204
 Horace,M,202
 Gilbert,M,199
 Roosevelt,M,198
@@ -2605,7 +2605,6 @@ Sammie,M,32
 Sterling,M,32
 Ulysses,M,32
 Benny,M,31
-Chris,M,31
 Ezra,M,31
 Garfield,M,31
 Harris,M,31
@@ -2613,6 +2612,7 @@ Keith,M,31
 Morton,M,31
 Truman,M,31
 Alfonso,M,30
+Chris,M,30
 Hollis,M,30
 Milo,M,30
 Rubin,M,30

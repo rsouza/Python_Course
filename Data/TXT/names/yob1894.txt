@@ -446,13 +446,13 @@ Viva,F,40
 Clyde,F,39
 Connie,F,39
 Eulalia,F,39
-Savannah,F,39
 Vinnie,F,39
 Almeda,F,38
 Dixie,F,38
 Elda,F,38
 Hilma,F,38
 Lauretta,F,38
+Savannah,F,38
 Tena,F,38
 Camille,F,37
 Ester,F,37
@@ -1729,7 +1729,7 @@ Samuel,M,776
 Raymond,M,767
 Joe,M,741
 David,M,729
-Charlie,M,705
+Charlie,M,704
 Ralph,M,692
 Harold,M,690
 Howard,M,612

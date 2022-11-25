@@ -1336,7 +1336,6 @@ Caleb,M,18
 Cicero,M,18
 Clem,M,18
 Clint,M,18
-Dean,M,18
 Forest,M,18
 Gustav,M,18
 Harmon,M,18
@@ -1356,6 +1355,7 @@ Addison,M,17
 Alford,M,17
 Art,M,17
 Benjamine,M,17
+Dean,M,17
 Enos,M,17
 Erwin,M,17
 Gabriel,M,17

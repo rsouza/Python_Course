@@ -15,7 +15,7 @@ Gladys,F,2674
 Edna,F,2667
 Grace,F,2615
 Annie,F,2551
-Rose,F,2477
+Rose,F,2478
 Frances,F,2365
 Clara,F,2342
 Bessie,F,2339
@@ -103,7 +103,7 @@ Theresa,F,553
 Effie,F,552
 Lola,F,547
 Nettie,F,547
-Opal,F,543
+Opal,F,542
 May,F,541
 Flora,F,536
 Nancy,F,527
@@ -228,7 +228,7 @@ Veronica,F,175
 Rita,F,174
 Teresa,F,174
 Gussie,F,170
-Letha,F,166
+Letha,F,165
 Adele,F,164
 Claire,F,164
 Roxie,F,163
@@ -2106,7 +2106,7 @@ Roy,M,975
 Carl,M,910
 Joe,M,895
 Louis,M,889
-Richard,M,864
+Richard,M,863
 Earl,M,837
 Jack,M,831
 Ralph,M,807
@@ -2178,7 +2178,7 @@ Patrick,M,210
 Everett,M,204
 Stephen,M,200
 Glenn,M,198
-Roosevelt,M,197
+Roosevelt,M,196
 Victor,M,196
 Alexander,M,195
 Hugh,M,193
@@ -2251,7 +2251,7 @@ Matthew,M,102
 Douglas,M,100
 Johnie,M,99
 Emmett,M,97
-Abraham,M,96
+Abraham,M,95
 Elbert,M,95
 Irvin,M,95
 Marshall,M,94

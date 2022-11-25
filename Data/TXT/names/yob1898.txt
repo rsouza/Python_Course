@@ -7,7 +7,7 @@ Florence,F,3790
 Elizabeth,F,3659
 Ethel,F,3531
 Marie,F,3435
-Lillian,F,3060
+Lillian,F,3061
 Alice,F,2846
 Edna,F,2813
 Emma,F,2788
@@ -37,7 +37,7 @@ Nellie,F,1810
 Sarah,F,1800
 Laura,F,1768
 Ella,F,1715
-Agnes,F,1709
+Agnes,F,1708
 Catherine,F,1705
 Louise,F,1693
 Dorothy,F,1671
@@ -1974,7 +1974,7 @@ Zela,F,5
 Zell,F,5
 Zudie,F,5
 John,M,8160
-William,M,7399
+William,M,7400
 James,M,5321
 George,M,4853
 Charles,M,3557
@@ -2074,8 +2074,8 @@ Ira,M,195
 Stephen,M,195
 Kenneth,M,191
 Horace,M,189
-Allen,M,186
 Oliver,M,186
+Allen,M,185
 Alvin,M,184
 Julius,M,181
 Alexander,M,180
@@ -3138,7 +3138,6 @@ Cornelious,M,5
 Curley,M,5
 Dane,M,5
 Dawson,M,5
-Denton,M,5
 Denzil,M,5
 Dexter,M,5
 Dorris,M,5

@@ -23,7 +23,7 @@ Ella,F,1647
 Lillian,F,1640
 Pearl,F,1588
 Laura,F,1567
-Rose,F,1551
+Rose,F,1550
 Carrie,F,1547
 Gertrude,F,1543
 Edith,F,1523
@@ -726,7 +726,6 @@ Betsey,F,13
 Billie,F,13
 Birtie,F,13
 Clifford,F,13
-Deborah,F,13
 Dell,F,13
 Dicie,F,13
 Ebba,F,13
@@ -761,6 +760,7 @@ Arlie,F,12
 Bobbie,F,12
 Byrd,F,12
 Celina,F,12
+Deborah,F,12
 Delphine,F,12
 Edward,F,12
 Emelie,F,12
@@ -1513,7 +1513,7 @@ Andrew,M,561
 Elmer,M,557
 Paul,M,556
 Daniel,M,515
-Raymond,M,512
+Raymond,M,511
 Howard,M,503
 Ralph,M,495
 Sam,M,486
@@ -1527,7 +1527,7 @@ Lewis,M,414
 Herman,M,405
 Claude,M,386
 Tom,M,379
-Michael,M,378
+Michael,M,377
 Eugene,M,369
 Martin,M,367
 Ray,M,355

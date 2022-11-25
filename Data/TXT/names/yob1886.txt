@@ -1,4 +1,4 @@
-Mary,F,9891
+Mary,F,9890
 Anna,F,4283
 Emma,F,2764
 Elizabeth,F,2680
@@ -119,7 +119,7 @@ Estella,F,246
 Nina,F,238
 Augusta,F,237
 Iva,F,237
-Dorothy,F,231
+Dorothy,F,230
 Lela,F,230
 Ann,F,229
 Leona,F,227

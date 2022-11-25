@@ -1,5 +1,5 @@
 Mary,F,13446
-Anna,F,5949
+Anna,F,5950
 Helen,F,4023
 Margaret,F,3931
 Elizabeth,F,3603
@@ -117,7 +117,7 @@ Henrietta,F,420
 Ora,F,416
 Inez,F,403
 Jane,F,394
-Susan,F,394
+Susan,F,393
 Lela,F,388
 Rebecca,F,386
 Mollie,F,382
@@ -513,7 +513,6 @@ Zoe,F,34
 Adah,F,33
 Alda,F,33
 Camille,F,33
-Gail,F,33
 Kittie,F,33
 Lavina,F,33
 Mertie,F,33
@@ -522,6 +521,7 @@ Althea,F,32
 Celeste,F,32
 Claudie,F,32
 Dixie,F,32
+Gail,F,32
 Judith,F,32
 Lavinia,F,32
 Ludie,F,32

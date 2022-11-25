@@ -67,7 +67,7 @@ Nettie,F,536
 Nancy,F,527
 Alma,F,515
 Sadie,F,514
-Ruth,F,507
+Ruth,F,506
 Della,F,500
 Susie,F,477
 Sallie,F,457

@@ -57,7 +57,7 @@ Alma,F,1056
 Fannie,F,1031
 Mamie,F,978
 Stella,F,972
-Katherine,F,962
+Katherine,F,961
 Dora,F,960
 Mildred,F,959
 Nora,F,899
@@ -78,7 +78,7 @@ Beulah,F,638
 Willie,F,631
 Dorothy,F,626
 Lizzie,F,597
-Nancy,F,592
+Nancy,F,591
 Flora,F,585
 Olive,F,583
 Sallie,F,582
@@ -98,7 +98,7 @@ Etta,F,492
 Charlotte,F,486
 Vera,F,486
 Caroline,F,476
-Virginia,F,476
+Virginia,F,475
 Amanda,F,455
 Ollie,F,441
 Leona,F,440
@@ -1663,7 +1663,7 @@ John,M,9039
 William,M,7782
 James,M,5398
 George,M,4760
-Charles,M,4318
+Charles,M,4319
 Frank,M,3150
 Joseph,M,3064
 Robert,M,2711

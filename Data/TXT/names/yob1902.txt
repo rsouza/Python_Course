@@ -1,4 +1,4 @@
-Mary,F,14485
+Mary,F,14486
 Helen,F,5967
 Anna,F,5288
 Margaret,F,5011
@@ -2049,7 +2049,7 @@ Robert,M,3180
 Joseph,M,3098
 Frank,M,2756
 Edward,M,2294
-Henry,M,2153
+Henry,M,2154
 Thomas,M,2134
 Walter,M,1858
 Harry,M,1750
@@ -2069,8 +2069,8 @@ Richard,M,908
 Earl,M,877
 Ralph,M,867
 Ernest,M,790
+Charlie,M,761
 David,M,761
-Charlie,M,760
 Jack,M,743
 Samuel,M,702
 Theodore,M,642
@@ -2192,7 +2192,7 @@ Glen,M,123
 Jimmie,M,123
 Rudolph,M,119
 Manuel,M,118
-Roland,M,116
+Roland,M,115
 Felix,M,114
 Johnie,M,113
 Clifton,M,112
@@ -2304,16 +2304,16 @@ Barney,M,50
 Byron,M,50
 Cyril,M,50
 Dock,M,50
-Edmond,M,50
 Mitchell,M,50
 Wilbert,M,50
 Aubrey,M,49
+Edmond,M,49
 Emanuel,M,49
 Erwin,M,49
 Ronald,M,49
-Christopher,M,48
 Edd,M,48
 Lyle,M,48
+Christopher,M,47
 Columbus,M,47
 Jeff,M,47
 Larry,M,46

@@ -1,4 +1,4 @@
-Mary,F,16709
+Mary,F,16708
 Helen,F,6343
 Anna,F,6115
 Margaret,F,5305
@@ -24,7 +24,7 @@ Gertrude,F,2580
 Pearl,F,2512
 Mabel,F,2508
 Frances,F,2495
-Dorothy,F,2492
+Dorothy,F,2491
 Martha,F,2437
 Hazel,F,2425
 Ida,F,2285
@@ -32,7 +32,7 @@ Irene,F,2264
 Myrtle,F,2252
 Eva,F,2089
 Catherine,F,2081
-Louise,F,2071
+Louise,F,2070
 Edith,F,2068
 Sarah,F,2055
 Elsie,F,2045
@@ -96,7 +96,7 @@ Olive,F,705
 Bernice,F,702
 Lottie,F,690
 Sallie,F,676
-Nancy,F,674
+Nancy,F,673
 Betty,F,665
 Hilda,F,663
 Theresa,F,659
@@ -142,7 +142,7 @@ Velma,F,426
 Genevieve,F,420
 Verna,F,412
 Susan,F,411
-Marian,F,409
+Marian,F,408
 Amelia,F,398
 Lucile,F,395
 Victoria,F,391
@@ -159,7 +159,7 @@ Flossie,F,368
 Estella,F,365
 Ola,F,352
 Matilda,F,348
-Barbara,F,342
+Barbara,F,341
 Sophie,F,338
 Alta,F,337
 Amy,F,335
@@ -179,8 +179,8 @@ Elva,F,301
 Frieda,F,300
 Kate,F,297
 Belle,F,291
-Sally,F,289
 Ina,F,288
+Sally,F,288
 Allie,F,286
 Isabel,F,286
 Maud,F,286
@@ -289,9 +289,9 @@ Cecil,F,129
 Nola,F,129
 Isabella,F,128
 Linda,F,127
-Phyllis,F,127
 June,F,126
 Lily,F,126
+Phyllis,F,126
 Claudia,F,125
 Dessie,F,125
 Marcella,F,125
@@ -369,7 +369,7 @@ Floy,F,85
 Willa,F,84
 Iona,F,83
 Lauretta,F,83
-Donna,F,82
+Donna,F,81
 Lenore,F,81
 Malinda,F,81
 Vida,F,81
@@ -389,12 +389,12 @@ Annabelle,F,73
 Bella,F,73
 Chloe,F,72
 Ester,F,72
-Carol,F,71
 Frankie,F,71
 Iola,F,71
 Leora,F,71
 Phoebe,F,71
 Zula,F,71
+Carol,F,70
 Una,F,70
 Angie,F,69
 Mona,F,69
@@ -636,7 +636,6 @@ Etha,F,31
 Exie,F,31
 Osie,F,31
 Serena,F,31
-Veva,F,31
 Almeda,F,30
 Bethel,F,30
 Celestine,F,30
@@ -652,6 +651,7 @@ Lorna,F,30
 Luna,F,30
 Malissa,F,30
 Myrna,F,30
+Veva,F,30
 Yetta,F,30
 Albertha,F,29
 Berenice,F,29
@@ -1464,7 +1464,6 @@ Coy,F,8
 Cressie,F,8
 Cuba,F,8
 Deloris,F,8
-Denise,F,8
 Desta,F,8
 Doretta,F,8
 Dorotha,F,8
@@ -1610,6 +1609,7 @@ Corinna,F,7
 Daniel,F,7
 Delina,F,7
 Dellia,F,7
+Denise,F,7
 Dezzie,F,7
 Dicy,F,7
 Donia,F,7
@@ -2186,7 +2186,6 @@ Roslyn,F,5
 Rosy,F,5
 Roxey,F,5
 Sada,F,5
-Sandra,F,5
 Santa,F,5
 Senia,F,5
 Senora,F,5
@@ -2224,18 +2223,18 @@ Zimmie,F,5
 Zollie,F,5
 Zonie,F,5
 Zuma,F,5
-John,M,9832
+John,M,9830
 William,M,8580
-James,M,7246
+James,M,7245
 George,M,5403
-Charles,M,4102
-Robert,M,3825
+Charles,M,4101
+Robert,M,3824
 Joseph,M,3714
 Frank,M,3477
 Edward,M,2721
 Henry,M,2606
 Thomas,M,2557
-Walter,M,2298
+Walter,M,2299
 Harry,M,2271
 Willie,M,2113
 Arthur,M,1853
@@ -2247,15 +2246,15 @@ Harold,M,1246
 Roy,M,1215
 Joe,M,1180
 Raymond,M,1150
-Richard,M,1143
+Richard,M,1142
 Charlie,M,1124
-Louis,M,1099
+Louis,M,1098
 Jack,M,1053
 Earl,M,1037
 Carl,M,1016
 Ernest,M,1012
 Ralph,M,896
-David,M,887
+David,M,886
 Samuel,M,877
 Sam,M,821
 Howard,M,780
@@ -2267,7 +2266,7 @@ Lawrence,M,659
 Francis,M,652
 Alfred,M,640
 Will,M,603
-Daniel,M,600
+Daniel,M,598
 Eugene,M,587
 Leo,M,570
 Oscar,M,563
@@ -2354,7 +2353,7 @@ Stephen,M,181
 Wesley,M,181
 Vincent,M,178
 Marvin,M,176
-Manuel,M,175
+Manuel,M,174
 Willard,M,172
 Vernon,M,170
 Willis,M,169
@@ -2363,7 +2362,7 @@ Morris,M,162
 Jose,M,161
 Wallace,M,161
 Wilbur,M,161
-Gerald,M,158
+Gerald,M,157
 Rufus,M,157
 Bennie,M,154
 Bert,M,153
@@ -2411,9 +2410,9 @@ Pete,M,116
 Irving,M,115
 Orville,M,112
 Adam,M,111
-Douglas,M,109
 Ollie,M,109
 Clifton,M,108
+Douglas,M,108
 Claud,M,107
 Jay,M,107
 Aaron,M,104
@@ -2566,12 +2565,12 @@ Cyril,M,41
 Ferdinand,M,41
 Lynn,M,41
 Pearl,M,41
-Ronald,M,41
 Bud,M,40
 Dallas,M,40
 Elmo,M,40
 Francisco,M,40
 Lucius,M,40
+Ronald,M,40
 Stewart,M,40
 Clair,M,39
 Elton,M,39
@@ -2651,7 +2650,6 @@ Clem,M,28
 Green,M,28
 Haywood,M,28
 Odis,M,28
-Reginald,M,28
 Sol,M,28
 Washington,M,28
 Adrian,M,27
@@ -2664,6 +2662,7 @@ Ellsworth,M,27
 Emmet,M,27
 Hobart,M,27
 Judge,M,27
+Reginald,M,27
 Rupert,M,27
 Seth,M,27
 Travis,M,27
@@ -2734,7 +2733,6 @@ Pablo,M,22
 Phil,M,22
 Pink,M,22
 Prince,M,22
-Rodney,M,22
 Ruby,M,22
 Salvatore,M,22
 Sandy,M,22
@@ -2754,6 +2752,7 @@ Omer,M,21
 Otha,M,21
 Otho,M,21
 Palmer,M,21
+Rodney,M,21
 Sanford,M,21
 Terry,M,21
 Thurman,M,21
@@ -3206,7 +3205,6 @@ Byrd,M,8
 Ceasar,M,8
 Cora,M,8
 Doctor,M,8
-Donnie,M,8
 Donovan,M,8
 Dorothy,M,8
 Drew,M,8
@@ -3299,6 +3297,7 @@ Dayton,M,7
 Denny,M,7
 Denzil,M,7
 Dessie,M,7
+Donnie,M,7
 Eligha,M,7
 Elihu,M,7
 Ellery,M,7

@@ -1070,7 +1070,7 @@ Fred,M,1502
 Albert,M,1496
 Samuel,M,937
 Clarence,M,837
-Louis,M,797
+Louis,M,796
 David,M,735
 Richard,M,649
 Charlie,M,643

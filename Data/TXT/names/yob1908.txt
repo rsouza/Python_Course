@@ -10,7 +10,7 @@ Alice,F,4270
 Marie,F,4076
 Florence,F,3883
 Ethel,F,3786
-Lillian,F,3632
+Lillian,F,3633
 Frances,F,3592
 Gladys,F,3580
 Rose,F,3382
@@ -45,7 +45,7 @@ Myrtle,F,1952
 Agnes,F,1934
 Eva,F,1930
 Minnie,F,1817
-Sarah,F,1813
+Sarah,F,1814
 Nellie,F,1757
 Julia,F,1749
 Pauline,F,1702
@@ -85,7 +85,7 @@ Opal,F,955
 Marjorie,F,942
 Rosa,F,941
 Ada,F,922
-Marguerite,F,914
+Marguerite,F,913
 Lula,F,892
 Velma,F,860
 Jean,F,852
@@ -111,7 +111,7 @@ Nora,F,648
 Olive,F,648
 Alberta,F,641
 Wilma,F,630
-Lola,F,622
+Lola,F,623
 Lucile,F,592
 Lottie,F,580
 Marian,F,579
@@ -2485,7 +2485,7 @@ Herman,M,562
 Lee,M,553
 Stanley,M,547
 Peter,M,542
-Daniel,M,531
+Daniel,M,530
 Floyd,M,529
 Leroy,M,523
 Russell,M,523
@@ -2601,7 +2601,7 @@ Clinton,M,140
 Mike,M,139
 August,M,138
 Calvin,M,135
-Clayton,M,135
+Clayton,M,134
 Franklin,M,133
 Perry,M,133
 Pete,M,131
@@ -2899,6 +2899,7 @@ Alfredo,M,28
 Arther,M,28
 Berry,M,28
 Billie,M,28
+Garrett,M,28
 Hardy,M,28
 Lyman,M,28
 Mario,M,28
@@ -2910,7 +2911,6 @@ Bertram,M,27
 Bruno,M,27
 Bryan,M,27
 Elzie,M,27
-Garrett,M,27
 Gary,M,27
 General,M,27
 Junior,M,27

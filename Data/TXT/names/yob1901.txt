@@ -1955,7 +1955,7 @@ Thomas,M,1820
 Walter,M,1719
 Harry,M,1594
 Arthur,M,1329
-Albert,M,1318
+Albert,M,1317
 Willie,M,1294
 Clarence,M,1196
 Fred,M,1133
@@ -2009,7 +2009,7 @@ Edwin,M,299
 Eddie,M,296
 Tom,M,291
 Lloyd,M,285
-Clifford,M,283
+Clifford,M,282
 Cecil,M,278
 Edgar,M,271
 Leroy,M,268

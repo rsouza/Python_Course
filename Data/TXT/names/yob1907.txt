@@ -57,7 +57,7 @@ Willie,F,1394
 Mae,F,1375
 Alma,F,1347
 Mattie,F,1320
-Jessie,F,1315
+Jessie,F,1314
 Carrie,F,1283
 Ann,F,1264
 Marion,F,1251
@@ -694,6 +694,7 @@ Versie,F,31
 Delphine,F,30
 Dorris,F,30
 Joe,F,30
+Lucretia,F,30
 Margarette,F,30
 Mavis,F,30
 Maye,F,30
@@ -701,7 +702,6 @@ Millicent,F,30
 Adella,F,29
 Eleanora,F,29
 Lilian,F,29
-Lucretia,F,29
 Norine,F,29
 Odelia,F,29
 Ouida,F,29
@@ -2402,7 +2402,7 @@ William,M,6905
 James,M,6707
 George,M,4445
 Robert,M,4020
-Charles,M,3885
+Charles,M,3884
 Joseph,M,3844
 Frank,M,2943
 Edward,M,2576
@@ -2435,7 +2435,7 @@ Charlie,M,793
 Alfred,M,738
 Francis,M,717
 Theodore,M,712
-Herbert,M,711
+Herbert,M,710
 Andrew,M,708
 Eugene,M,691
 Leo,M,651
@@ -2785,7 +2785,6 @@ Dee,M,34
 Kermit,M,34
 Newton,M,34
 Buck,M,33
-Christian,M,33
 Conrad,M,33
 Dominic,M,33
 Frances,M,33
@@ -2793,6 +2792,7 @@ Margaret,M,33
 Merrill,M,33
 Pat,M,33
 Stewart,M,33
+Christian,M,32
 Elias,M,32
 Gerard,M,32
 Houston,M,32
