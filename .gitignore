@@ -12,3 +12,4 @@ Data/Geo/KDZ_Stadtregionen_GEM_20160101.geojson
 .vscode/settings.json
 Scripts
 /.venv/*.cfg
+/Notebooks/Python_Basic/__pycache__/*.pyc
