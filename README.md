@@ -1,4 +1,4 @@
-#Change is here ## An introductory and intermediate course on Python  
+An introductory and intermediate course on Python  
 
 ### Topics  
 
